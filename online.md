@@ -1,6 +1,4 @@
-# online
-
-### Interlisp Online
+# Interlisp Online
 
 [Interlisp Online](https://online.interlisp.org/user/login) provides access to a version of Medley running in the cloud. All that is needed to get started is to create an account - simply an email address and password. Once an account has been created you can log in and start a Medley Interlisp session.
 
