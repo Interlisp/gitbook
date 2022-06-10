@@ -1,6 +1,4 @@
-# What Is Medley
-
-### What is Medley Interlisp
+# What Is Medley Interlisp?
 
 Medley Interlisp is the environment originally developed for the Xerox Lisp machines (called D-machines, names Dorado, Dolphin, Dandelion, Daybreak). The project was spun out to a company called Envos, which then turned into Venue.
 
