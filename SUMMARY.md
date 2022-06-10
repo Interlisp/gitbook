@@ -5,7 +5,7 @@
 * [news](news/README.md)
   * [2021 Medley Interlisp Annual Report](news/2021-medley-interlisp-annual-report.md)
 * [What Is Medley Interlisp?](whatismedley.md)
-* [basic](basic.md)
+* [Basic Components](basic-components.md)
 * [github](github.md)
 * [releases](releases.md)
 * [useOnline](useonline.md)
