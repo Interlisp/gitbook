@@ -1,8 +1,6 @@
-# useOnline
+# Using Interlisp Online
 
-### Getting Started with Interlisp Online
-
-A Brief Introduction
+### A Brief Introduction
 
 ### Running Interlisp Online <a href="#running-interlisp-online" id="running-interlisp-online"></a>
 
@@ -14,7 +12,9 @@ However, if you just want to get a taste of Interlisp without the extra effort o
 * Select the Exec you want to run. For this exercise, select `Interlisp`
 * Leave the `Fill browser window` option set.
 
-Select `Run Medley`. Your browser will open a window that represents the Interlisp Desktop and looks much like this: ![image](.gitbook/assets/Interlisp\_Screen).
+Select `Run Medley`. Your browser will open a window that represents the Interlisp Desktop and looks much like this:&#x20;
+
+![image](.gitbook/assets/Interlisp\_Screen).
 
 The Interlisp Desktop at startup contains 4 windows of interest:
 
