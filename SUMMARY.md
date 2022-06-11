@@ -1,7 +1,8 @@
 # Table of contents
 
-* [About the Medley Interlisp Project](README.md)
+* [About the Interlisp Project](README.md)
 * [What Is Medley Interlisp?](what-is-medley.md)
+*
 * [Interlisp Online](online.md)
 * [Documentation](Documentation.md)
 * [Project news](news/README.md)
