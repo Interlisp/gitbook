@@ -1,6 +1,4 @@
-# primer
-
-### Medley Primer
+# Medley Primer
 
 Release 2.0
 
