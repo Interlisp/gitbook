@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Project news
 
 The [**2021 Medley Interlisp Annual Report** ](2021-medley-interlisp-annual-report.md)provides a detailed report on 2021 accomplishments.
