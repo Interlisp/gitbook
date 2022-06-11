@@ -1,2 +1,0 @@
-# Educopia Community Resources
-

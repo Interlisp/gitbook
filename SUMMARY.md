@@ -19,7 +19,7 @@
 * [Medley Primer](primer.md)
 * [Documentation](Documentation.md)
 * [Building](Building.md)
-* [Educopia Community Resources](Educopia-Community-Resources.md)
+* [Educopia Community Resources](educopia.md)
 * [Introduce yourself](Guest-Book.md)
 * [Welcome to the Medley Interlisp Wiki!](Home.md)
 * [InterlispOrg-Inc](InterlispOrg-Inc.md)
