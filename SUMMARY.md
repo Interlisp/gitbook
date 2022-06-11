@@ -10,5 +10,6 @@
 * [GitHub Integration](github.md)
 * [Releases](releases.md)
 * [Using Interlisp Online](useonline.md)
-* [history](history.md)
+* [history](history/README.md)
+  * [Interlisp History](history/interlisp-history.md)
 * [primer](primer.md)
