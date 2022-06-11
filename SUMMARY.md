@@ -12,4 +12,5 @@
 * [Using Interlisp Online](useonline.md)
 * [history](history/README.md)
   * [Interlisp History](history/interlisp-history.md)
+  * [Interlisp Timeline](history/interlisp-timeline.md)
 * [primer](primer.md)
