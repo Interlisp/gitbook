@@ -13,6 +13,5 @@
 * [History](history.md)
   * [Interlisp History](history/interlisp-history.md)
   * [Interlisp Timeline](history/interlisp-timeline.md)
-  * [Interlisp Bibliography](history/interlisp-bibliography.md)
   * [Interlisp History](history/interlisp-history-1.md)
 * [Medley Primer](primer.md)
