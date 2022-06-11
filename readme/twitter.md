@@ -1,14 +1,37 @@
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">A new favorite project: People from 1970s PARC + PARC-adjacent folks are carefully restoring/gently modernizing the Medley Interlisp system, a Lisp OS that ran on the Xerox D-machines, so that it can run on a modern VM on any OS. <a href="https://t.co/lIeJlpxLDe">https://t.co/lIeJlpxLDe</a> <a href="https://t.co/Tgrlu8Xsc1">pic.twitter.com/Tgrlu8Xsc1</a></p>&mdash; Paul Ford (@ftrain) <a href="https://twitter.com/ftrain/status/1470968024756895744?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
+---
+description: (needs updati
+---
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">It was SUCH a productive working environment, so much better than any IDE we have today. It had two problems: it was expensive, and it was slow. But an 1108 ran at about a million instructions per second; my current Ryzen 5 runs at 86 billion. So speed isn&#39;t so much of a problem!</p>&mdash; Simon fae Standingstone ::🏴󠁧󠁢󠁳󠁣󠁴󠁿🇪🇺🌍:: (@simon_brooke) <a href="https://twitter.com/simon_brooke/status/1471238434719154189?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
+# Twitter Reviews
 
-<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="en" dir="ltr">Retro projects are often extremely toxic, but here they&#39;re taking care to set up a modern dev community (Zoom calls, code of conduct), enhancing docs, publishing a thorough annual report, and preserving &quot;legacy&quot; versions of the software too. <a href="https://t.co/6vZcjlPaU3">https://t.co/6vZcjlPaU3</a></p>&mdash; Paul Ford (@ftrain) <a href="https://twitter.com/ftrain/status/1470969313804926982?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
+{% embed url="https://twitter.com/ftrain/status/1470968024756895744?s=20&t=2wZTBo0PxqwCBrJyKSjOmQ" %}
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">. <a href="https://twitter.com/Interlisp8?ref_src=twsrc%5Etfw">@interlisp8</a> informs me that you - yes, you! - can still experience the Interlisp experience from the &#39;80s. <a href="https://t.co/JK1OgEaCMN">https://t.co/JK1OgEaCMN</a><br><br>Interlisp came from the same milieu as Smalltalk and (I&#39;m told) had a similar experience. People interested in recovering lost lessons, take note.</p>&mdash; Brian Marick (@marick) <a href="https://twitter.com/marick/status/1478880547434909698?ref_src=twsrc%5Etfw">January 6, 2022</a></blockquote>
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Back in the 1980s when we used actual modern computers, <a href="https://twitter.com/DefnPodcast?ref_src=twsrc%5Etfw">@DefnPodcast</a>, the way Interlisp handled multiple concurrent breaks in multiple threads was to pop up multiple break inspector windows on the screen, which you could deal with in whatever order.<a href="https://t.co/AxTGFc7W8Q">https://t.co/AxTGFc7W8Q</a></p>&mdash; Simon fae Standingstone ::🏴󠁧󠁢󠁳󠁣󠁴󠁿🇪🇺🌍:: (@simon_brooke) <a href="https://twitter.com/simon_brooke/status/1485987084036890625?ref_src=twsrc%5Etfw">January 25, 2022</a></blockquote>
-\<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Interlisp was a fascinating language that influenced the definition of Common Lisp. However, a couple of prime features have not found much traction: DWIM and structure editing. This manual hints at a lost future that&#39;s both inspiring and depressing all at once. <a href="https://t.co/NPKIBklsjk">pic.twitter.com/NPKIBklsjk</a></p>&mdash; fogus (@fogus) <a href="https://twitter.com/fogus/status/1487167719493488641?ref_src=twsrc%5Etfw">January 28, 2022</a></blockquote>
-
+> A new favorite project: People from 1970s PARC + PARC-adjacent folks are carefully restoring/gently modernizing the Medley Interlisp system, a Lisp OS that ran on the Xerox D-machines, so that it can run on a modern VM on any OS.&#x20;
+>
+> — Paul Ford (@ftrain) December 15, 2021
 
 
 
+> It was SUCH a productive working environment, so much better than any IDE we have today. It had two problems: it was expensive, and it was slow. But an 1108 ran at about a million instructions per second; my current Ryzen 5 runs at 86 billion. So speed isn't so much of a problem!
+>
+> — Simon fae Standingstone ::🏴󠁧󠁢󠁳󠁣󠁴󠁿🇪🇺🌍:: (@simon\_brooke) [December 15, 2021](https://twitter.com/simon\_brooke/status/1471238434719154189?ref\_src=twsrc%5Etfw)
+
+{% embed url="https://twitter.com/ftrain/status/1470969313804926982?s=20&t=9iYQ3AupAmiv0MND24zQRQ" %}
+
+> Retro projects are often extremely toxic, but here they're taking care to set up a modern dev community (Zoom calls, code of conduct), enhancing docs, publishing a thorough annual report, and preserving "legacy" versions of the software too.&#x20;
+>
+> — Paul Ford (@ftrain) [December 15, 2021](https://twitter.com/ftrain/status/1470969313804926982?ref\_src=twsrc%5Etfw)
+
+> . [@interlisp8](https://twitter.com/Interlisp8?ref\_src=twsrc%5Etfw) informs me that you - yes, you! - can still experience the Interlisp experience from the '80s. [https://t.co/JK1OgEaCMN](https://t.co/JK1OgEaCMN)\
+> \
+> Interlisp came from the same milieu as Smalltalk and (I'm told) had a similar experience. People interested in recovering lost lessons, take note.
+>
+> — Brian Marick (@marick) [January 6, 2022](https://twitter.com/marick/status/1478880547434909698?ref\_src=twsrc%5Etfw)
+
+> Back in the 1980s when we used actual modern computers, [@DefnPodcast](https://twitter.com/DefnPodcast?ref\_src=twsrc%5Etfw), the way Interlisp handled multiple concurrent breaks in multiple threads was to pop up multiple break inspector windows on the screen, which you could deal with in whatever order.[https://t.co/AxTGFc7W8Q](https://t.co/AxTGFc7W8Q)
+>
+> — Simon fae Standingstone ::🏴󠁧󠁢󠁳󠁣󠁴󠁿🇪🇺🌍:: (@simon\_brooke) [January 25, 2022](https://twitter.com/simon\_brooke/status/1485987084036890625?ref\_src=twsrc%5Etfw)
+
+> Interlisp was a fascinating language that influenced the definition of Common Lisp. However, a couple of prime features have not found much traction: DWIM and structure editing. This manual hints at a lost future that's both inspiring and depressing all at once. [pic.twitter.com/NPKIBklsjk](https://t.co/NPKIBklsjk)
+>
+> — fogus (@fogus) [January 28, 2022](https://twitter.com/fogus/status/1487167719493488641?ref\_src=twsrc%5Etfw)
