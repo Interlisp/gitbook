@@ -13,4 +13,5 @@
 * [history](history/README.md)
   * [Interlisp History](history/interlisp-history.md)
   * [Interlisp Timeline](history/interlisp-timeline.md)
+  * [Interlisp History](history/interlisp-history-1.md)
 * [primer](primer.md)
