@@ -1,7 +1,8 @@
 # Table of contents
 
-* [About the Medley Interlisp Project](README.md)
+* [About the Interlisp Project](README.md)
 * [What Is Medley Interlisp?](what-is-medley.md)
+*
 * [Interlisp Online](online.md)
 * [Documentation](Documentation.md)
 * [Project news](news/README.md)
@@ -15,10 +16,9 @@
   * [Interlisp Timeline](history/interlisp-timeline.md)
   * [Interlisp History](history/interlisp-history-1.md)
 * [Medley Primer](primer.md)
-* [21-08-02-notes-on-organization-goals](README.md)
 * [Building](Building.md)
-* [Documentation](Documentation.md)
-* [Educopia Community Resources](Educopia-Community-Resources.md)
+*
+* [Educopia Community Resources](educopia-community-resources.md)
 * [Introduce yourself](Guest-Book.md)
 * [Welcome to the Medley Interlisp Wiki!](Home.md)
 * [InterlispOrg-Inc](InterlispOrg-Inc.md)
@@ -38,5 +38,5 @@
 * [Tips](Tips.md)
 * [Twitter](Twitter.md)
 * [Using](Using.md)
-* [\_Footer](\_Footer.md)
-* [\_Sidebar](\_Sidebar.md)
+* [\_Footer](\_footer.md)
+* [\_Sidebar](\_sidebar.md)
