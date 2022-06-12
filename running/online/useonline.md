@@ -14,7 +14,7 @@ However, if you just want to get a taste of Interlisp without the extra effort o
 
 Select `Run Medley`. Your browser will open a window that represents the Interlisp Desktop and looks much like this:&#x20;
 
-![image](../.gitbook/assets/Interlisp\_Screen).
+![image](../../.gitbook/assets/Interlisp\_Screen).
 
 The Interlisp Desktop at startup contains 4 windows of interest:
 
