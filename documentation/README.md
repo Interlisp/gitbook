@@ -1,8 +1,13 @@
+---
+description: >-
+  This should have links to available documentation. The list is grouped by
+  location (and update method). Annotations 👀 please review; 🗝️ of historical
+  interest; 🔥 recent
+---
+
 # Documentation
 
-This should have links to all available project documentation. The list is grouped by location (and update method).
 
-Annotations 👀 please review; 🗝️ of historical interest; 🔥 recent
 
 #### Here
 
