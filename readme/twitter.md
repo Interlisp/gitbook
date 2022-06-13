@@ -5,12 +5,13 @@ description: (needs updati
 # Twitter Reviews
 
 {% embed url="https://twitter.com/ftrain/status/1470968024756895744?s=20&t=2wZTBo0PxqwCBrJyKSjOmQ" %}
+A new favorite project: People from 1970s PARC + PARC-adjacent folks are carefully restoring/gently modernizing the Medley Interlisp system, a Lisp OS that ran on the Xerox D-machines, so that it can run on a modern VM on any OS. \
+— Paul Ford (@ftrain) December 15, 2021
+{% endembed %}
 
-> A new favorite project: People from 1970s PARC + PARC-adjacent folks are carefully restoring/gently modernizing the Medley Interlisp system, a Lisp OS that ran on the Xerox D-machines, so that it can run on a modern VM on any OS.&#x20;
->
-> — Paul Ford (@ftrain) December 15, 2021
-
-
+{% embed url="https://twitter.com/RainerJoswig/status/1505472765951987712" %}
+[#lisp](https://twitter.com/hashtag/lisp?src=hashtag\_click) pretty cool to run [#Interlisp](https://twitter.com/hashtag/Interlisp?src=hashtag\_click) Medley in a browser. Supports also Common Lisp. Thanks to [@masinter](https://twitter.com/masinter)and team! Check out the original image-based software development, dating back to BBN Lisp of the 60s, renamed Interlisp later!
+{% endembed %}
 
 > It was SUCH a productive working environment, so much better than any IDE we have today. It had two problems: it was expensive, and it was slow. But an 1108 ran at about a million instructions per second; my current Ryzen 5 runs at 86 billion. So speed isn't so much of a problem!
 >
