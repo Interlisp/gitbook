@@ -32,6 +32,7 @@
   * [The-Medley-Interlisp-{DSK}-file-system](documentation/the-medley-interlisp-dsk-file-system.md)
   * [Tips](documentation/tips.md)
   * [Using](documentation/using.md)
+  * [Interlisp Books](documentation/interlisp-books.md)
 * [History](history.md)
   * [Interlisp History](history/interlisp-history.md)
   * [Interlisp Timeline](history/interlisp-timeline.md)
