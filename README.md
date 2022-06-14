@@ -1,4 +1,8 @@
-# About the Medley Interlisp Project
+---
+layout: landing
+---
+
+# About the Interlisp Project
 
 ### Goal <a href="#goal" id="goal"></a>
 
