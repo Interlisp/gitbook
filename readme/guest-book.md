@@ -1,9 +1,13 @@
-# Guest Book
+---
+description: a Guest Book
+---
+
+# Introduce yourself
 
 ## @GitHubHandle (Your Name)
 
 * Prior Interlisp/Medley use or development
-* What brings you here? Longer answers add to Medley Goals document.
+* What brings you here? Longer answers add to [Medley Goals](https://docs.google.com/document/d/1q15mKHJt1fiFToamUacDWvw2UnUDJIaWLuuaeEUQS8k/edit?usp=sharing) document.
 
 ## @masinter (Larry Masinter)
 

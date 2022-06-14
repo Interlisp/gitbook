@@ -17,7 +17,7 @@
   * [Introduction to Medley](what-is-medley/introduction.md)
   * [Basic Components](what-is-medley/basic-components/README.md)
     * [GitHub Integration](what-is-medley/basic-components/github.md)
-* [Running](running/README.md)
+* [Running Medley Interlisp](running/README.md)
   * [Interlisp Online](running/online/README.md)
     * [Using Interlisp Online](running/online/useonline.md)
   * [Running on Windows](running/running-on-win.md)

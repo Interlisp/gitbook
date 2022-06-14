@@ -1,16 +1,12 @@
 ---
-description: (Quarterly / Annual report)
+coverY: 0
 ---
 
-# Project News
+# Project news
 
 The [**2021 Medley Interlisp Annual Report** ](2021-medley-interlisp-annual-report.md)provides a detailed report on 2021 accomplishments.
 
-### 6/2022 <a href="#32022" id="32022"></a>
-
-* Documentation update. We're updating the project documentation. Feel free to make suggestions for improvement
-* Significant development of integration with GitHub (via the `GITFNS` module) for doing a Lisp-based PR review workflow.
-* ...&#x20;
+### Recent Updates <a href="#recent-updates" id="recent-updates"></a>
 
 ### 3/2022 <a href="#32022" id="32022"></a>
 
@@ -46,4 +42,4 @@ Merry Christmas and Happy New Year
 
 [Medley Interlisp: Tools and Utilities](https://interlisp.org/docs/2021-interlisp-book-3.pdf) (Interlisp book 3) now available for preview; comments and corrections welcome.
 
-[2021 Annual Report](https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY) November 15, 2021.
+[2021 Annual Report](https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY) November 15, 2021 (also [in PDF](https://interlisp.org/docs/2021-Medley-Interlisp-Annual-Report.pdf)).
