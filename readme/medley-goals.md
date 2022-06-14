@@ -1,6 +1,6 @@
-# Interlisp Stories and Goals
+# Medley Goals
 
-This document attempts to capture what people have said about their interests in the project. We may all have different ends in mind, but we share many common goals. We were working on sharing before “open source” was a thing. See also the corresponding "[Introduce yourself](guest-book.md)" guest book and the Twitter quotes.
+This document attempts to capture what people have said about their interests in the project. We may all have different ends in mind, but we share many common goals. We were working on sharing before “open source” was a thing. See also the corresponding "[Introduce yourself](guest-book.md)" guest book and the [Twitter ](twitter.md)quotes.
 
 ### Blake McBride <a href="#_b15aadt5hlea" id="_b15aadt5hlea"></a>
 

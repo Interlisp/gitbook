@@ -8,7 +8,7 @@
     * [Meeting Agendas and Notes 2021](readme/meeting-agendas-and-notes/meeting-agendas-and-notes-2021.md)
   * [Ongoing projects](readme/ongoing-projects.md)
   * [Twitter Reviews](readme/twitter.md)
-  * [Interlisp Stories and Goals](readme/interlisp-stories-and-goals.md)
+  * [Medley Goals](readme/medley-goals.md)
   * [In Memorium](readme/in-memorium.md)
   * [Organizational partners](readme/possible-organizational-partners/README.md)
     * [Educopia Community Resources](readme/possible-organizational-partners/educopia.md)

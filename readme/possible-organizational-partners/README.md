@@ -1,3 +1,7 @@
+---
+description: (needs update)
+---
+
 # Organizational partners
 
 ## News 22 Sep 21: [InterlispOrg Inc formed](https://github.com/Interlisp/medley/wiki/InterlispOrg-Inc)

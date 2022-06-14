@@ -63,8 +63,8 @@ One of the reasons for restoring Medley Interlisp is to support the revival of a
 
 #### Books <a href="#_5tyqara8iuk4" id="_5tyqara8iuk4"></a>
 
-* _**Interlisp: The Language and Its Usage**_, by Steve Kaisler, originally published by John Wiley & Sons, scanned and converted to a compact PDF. This book describes the core features of the Interlisp language. Now at [https://interlisp.org/docs/1986-Interlisp-language-book-1.pdf](https://interlisp.org/docs/1986-Interlisp-language-book-1.pdf).
-* _**Medley Interlisp: The Interactive Programming Environmen**_t, by Steve Kaisler, describes the Interlisp-D Interactive Programming Environment as implemented on Xerox D-machines and now running on several modern platforms. Now at [https://interlisp.org/docs/2021-interlisp-book-2.pdf](https://interlisp.org/docs/2021-interlisp-book-2.pdf).
+* _****_[_**Interlisp: The Language and Its Usage**_](../../documentation/interlisp-books.md), by Steve Kaisler, originally published by John Wiley & Sons, scanned and converted to a compact PDF. This book describes the core features of the Interlisp language.
+* ****[**Medley Interlisp: The Interactive Programming Environmen**t](../../documentation/interlisp-books.md), by Steve Kaisler, describes the Interlisp-D Interactive Programming Environment as implemented on Xerox D-machines and now running on several modern platforms.
 * _**Medley Interlisp: Tools and Utilities**_, by Steve Kaisler (undergoing editing) describes the editors and tools to be used for program development. It is expected to be completed and uploaded to Interlisp.org in early December 2021.
 
 #### Software Documentation <a href="#_g1sgav1cynz3" id="_g1sgav1cynz3"></a>
@@ -93,7 +93,7 @@ To attract users and supporters, we need to make the project known.
   * LinkedIn
   * Reddit
   * Facebook: Xerox Workstation Alums, LISPERs groups.
-  * IRC #Interlisp on Libera.chat
+  * IRC #Interlisp on [Libera.chat](https://libera.chat)
   * Meetup & Lisp groups: [LispNYC](https://www.meetup.com/LispNYC/), [Bay Area Lisp](https://www.meetup.com/balisp/): [online-lisp-meets@common-lisp.net](mailto:online-lisp-meets@common-lisp.net)
 * Conferences to announce to?
   * [European Lisp Symposium (european-lisp-symposium.org)](https://www.european-lisp-symposium.org/)
@@ -107,23 +107,21 @@ In this document, we use “we” to mean our contributors:
 * as members of the [lispcore@googlegroups.com](mailto:lispcore@googlegroups.com) mailing list/group ([Medley Interlisp core - Google Groups](https://groups.google.com/g/lispcore))
 * as participants in a weekly zoom call
   * Meetings recorded but not public
-  * Agendas: [Meeting Agendas and Notes](https://github.com/Interlisp/medley/wiki/Meeting-Agendas-and-Notes)
+  * Agendas: [Meeting Agendas and Notes](../meeting-agendas-and-notes/)
 * as members of the GitHub [Interlisp organization](https://github.com/orgs/Interlisp/people)
 * as contributors to an Open Source project
   * 384 issues, 133 closed, 151 open [Issues](https://github.com/Interlisp/medley/issues). 54 [discussions](https://github.com/Interlisp/medley/discussions)
   * 191 Medley [pull requests](https://github.com/Interlisp/medley/pulls), 387 Maiko [pull requests](https://github.com/Interlisp/maiko/pulls)
-* as a (non-profit) corporation: [InterlispORG Inc](https://github.com/Interlisp/medley/wiki/InterlispOrg-Inc).
+* as a (non-profit) corporation: [InterlispOrg Inc](../possible-organizational-partners/interlisporg-inc.md).
 
 We depend on volunteers to help. If you’d like to help but aren’t sure how to, ask.
 
 ### Future activities <a href="#_2zjkrtts4tg7" id="_2zjkrtts4tg7"></a>
 
-There were some tasks/projects listed here; that have been moved to GitHub [issues](https://github.com/Interlisp/medley/issues/566#issue-1053084010).
+There were some tasks/projects listed here; they have been moved to GitHub [issues](https://github.com/Interlisp/medley/issues/566#issue-1053084010).
 
 ### Acknowledgments <a href="#_nixrj1smqrtw" id="_nixrj1smqrtw"></a>
 
 We’ve gotten a lot done, but there’s quite a bit more to do. Thank you to Abe, Alexander, Arun, Bill, Blake, Frank, Herb, John C, Larry, Michele, Nick, Paul, Peter, Ron, Wayne, Zoe.
 
 A moment in memoriam to past contributors, including John Sybalsky, Warren Teitelman, Danny Bobrow.
-
-1. Also at [https://interlisp.org/docs/2021-Medley-Interlisp-Annual-Report.pdf](https://interlisp.org/docs/2021-Medley-Interlisp-Annual-Report.pdf) ↑
