@@ -14,4 +14,4 @@ We’re also trying to “_modernize_” some things; for example, we’ve addin
 
 ### Who
 
-There's a [Guest Book](readme/guest-book.md), a collection of larger descriptions of goals[#\_kly6krobw8zi](readme/news/2021-medley-interlisp-annual-report.md#\_kly6krobw8zi "mention")
+There's a [Guest Book](about/guest-book.md), a collection of larger descriptions of goals[#\_kly6krobw8zi](about/news/2021-medley-interlisp-annual-report.md#\_kly6krobw8zi "mention")

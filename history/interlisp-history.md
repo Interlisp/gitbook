@@ -1,14 +1,16 @@
 # Interlisp History
 
+Interlisp History (draft)
+
+(Originally copied from [https://interlisp.org/saved.html#history](https://interlisp.org/saved.html#history)) and [https://interlisp.org/new.html#interlisp-history](https://interlisp.org/new.html#interlisp-history). It was intended to be merged with [Interlisp History and Timeline](https://docs.google.com/document/u/0/d/1QXUMQ0OUttYYzWUvgdVcnkz5Gym\_t1MDnMT8XZJe-NI/edit)) but we started to work on the Zotero bibliography instead.
+
 Interlisp (a programming environment) was built around the programming language Lisp, known as the second oldest programming language in use (FORTRAN being the oldest). Interlisp had its roots in the development of an interactive Lisp system for the _Digital Equipment Corporation’s PDP-10_, in 1966 by _Danny Bobrow_ and _D. L. Murphy_ at Bolt-Beranek and Neuman (currently known as BBN Technologies) in Boston.
 
-In 1970, when Danny Bobrow and Warren Teitelman moved to Xerox Palo Alto Research Center (PARC) BBN LISP was renamed “Interlisp”.
+In 1970, when Danny Bobrow and Warren Teitelman moved to Xerox Palo Alto Research Center (PARC) BBN LISP was renamed “Interlisp”. Interlisp was popular in the AI industry because of its easy-to-integrate interactive development tools such as debuggers, simple auto-correction, and analysis tools. Defense Advanced Research Projects Agency (DARPA) funded the development to support researchers in Artificial Intelligence, who chose LISP over Fortran for symbolic computing.
 
-Interlisp was popular in the AI research community because of its easy-to-integrate interactive development tools such as debuggers, simple auto-correction, and analysis tools. Defense Advanced Research Projects Agency (DARPA) funded the development to support researchers in Artificial Intelligence, who chose LISP over Fortran for symbolic computing.
+When PARC built the Xerox Alto and its subsequent working stations called the D-machines, the development of Interlisp was directed towards supporting all the internal users. Researchers were developing the idea of using the Alto with such a machine architecture that could support more compact programs by assistance of microcoded processors that would interpret byte-coded instruction sequences smoothly. Mesa, Cedar, Smalltalk, and Interlisp were used as separate languages/virtual machines for this purpose.
 
-When PARC built the Xerox Alto and its subsequent workstations called the D-machines, the development of Interlisp was directed towards supporting the Xerox internal users. Researchers were developing the idea of using the Alto with such a machine architecture that could support more compact programs by assistance of microcoded processors that would interpret byte-coded instruction sequences smoothly. Mesa, Cedar, Smalltalk, and Interlisp were used as separate languages/virtual machines for this purpose.
-
-However, the Alto was too memory-constrained for using Lisp. To run Lisp, the D machines were used as they had their own different microcode and engines, which were implemented by different people. The names and their respective developers are mentioned below:
+However, the Alto was too memory-constrained for using Lisp. To run Lisp, the D machines were used as they had their own different microcode and engines, which were implemented by different people. The names and their respective coders are mentioned below:
 
 * Dandelion _(aka Xeros 1108)_ by Steve Purcell
 * Dolphin _(aka Xeros 1100)_ by Alan Bell
@@ -40,6 +42,8 @@ Later, Wayne Marci permitted the use of Venue’s code and license to release th
 * Beau Sheil, 1983: [_**Power Tools for Programmers**_](https://www.oreilly.com/library/view/readings-in-artificial/9780934613125/xhtml/B9780934613125500483.xhtml)
 * Photos from IJCAI 1982 Announcing sale of Dorado and Dandelion: [_**Interlisp-D at AAAI-82**_](https://photos.app.goo.gl/826EbhnkQSl8rePE3)
 * PDF files at CHM: [_**Interlisp-D**_](http://bitsavers.org/pdf/xerox/interlisp-d/) _and_ [_**Interlisp**_](http://bitsavers.org/pdf/xerox/interlisp/)
+* Maiko files at: [_**GitHub Maiko**_](https://github.com/Interlisp/maiko)
+* Lisp and other files soon to be at: [_**GitHub Medley**_](https://github.com/Interlisp/medley) (available on DropBox and iCloud temporarily.)
 * Article at Introducing Darkstar: A Xerox Star Emulator: [_**DarkStar Dandelion hardware emulator**_](https://github.com/livingcomputermuseum/Darkstar) (can be used to run older sysouts)
 
 **Informative Documents**
@@ -49,7 +53,7 @@ Later, Wayne Marci permitted the use of Venue’s code and license to release th
 * (1982) Richard P. Gabriel, Larry Masinter. [**Performance of Lisp Systems.**](http://portal.acm.org/citation.cfm?id=802143) ACM Symposium on LISP and Functional Programming.
 * (1981) Warren Teitelman, Larry Masinter. _**The Interlisp Programming Environment**._ IEEE Computer, April 1981.
 * [**Selling Lisp machines \~1980**](https://larrymasinter.net/stefik-loops.pdf).
-* (1980) [_**Global Program Analysis in an Interactive Environment**_](https://larrymasinter.net/thesis.pdf) _(PhD thesis)._
+* (1980) [_**Global Program Analysis in an Interactive Environment**_](https://larrymasinter.net/thesis.pdf) _(Larry's PhD thesis)._
 * (1980) **Overview and Status of DoradoLisp**, 1980 Lisp conference.
 * (1980) Larry Masinter, L. Peter Deutsch. **Local Optimization in a Compiler for Stack-Based Lisp Machines.** Lisp Conference. Stanford University.
 * (1988) [**Common LISP Cleanup**](http://www.softwarepreservation.org/projects/LISP/conference/iwoleas88/Masinter-CommonLispCleanup.pdf). A description of the process of "cleaning up" the Common Lisp standard. See [**Wikipedia article**](http://en.wikipedia.org/wiki/X3J13#Cleanup\_subcommittee) and [**cleanup proposal template**](https://larrymasinter.net/cl-cleanup-proposal.txt).
