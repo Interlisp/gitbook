@@ -3,7 +3,7 @@ This page is for project news. Periodic updates of news since the (11/15/21) [20
 ## 3/15/2022
 
 * [Interlisp Online](https://online.interlisp.org) new version! Many new/improved features. From any (recent) browser. Medley is running "in the cloud" and you connect to it (and your account) over the web.  
-* Medley [Documentation](https://github.com/Interlisp/medley/wiki/Documentation). We've been updating the online documentation at least for getting started -- instructions on Running in various contexts and Building and Using.
+* Medley [Documentation](documentation). We've been updating the online documentation at least for getting started -- instructions on Running in various contexts and Building and Using.
 * Interlisp.Org has been approved as tax-exempt by California Franchise Tax Board and the California AG, [State Charity Registration Number: CT0278267](https://rct.doj.ca.gov/Verification/Web/Search.aspx?facility=Y)
 * We have joined (as an "implementation sponsor") the [Software Preservation Network](https://www.softwarepreservationnetwork.org). See [Interlisp and SPN](https://www.softwarepreservationnetwork.org/Interlisp/) for more information.
 * Many updates to Medley features and files; most [releases](https://github.com/Interlisp/medley/releases) have a 'What's Changed' section or URL.
@@ -26,8 +26,8 @@ Merry Christmas and Happy New Year
    * a mouse and keyboard are still necessary on tablets.
    * For the immersive "Lisp Machine" experience, run "fullscreen".
    * HiRes display? Most browsers will let you scale the pixels.
-* [InterlispOrg Inc](https://github.com/Interlisp/medley/wiki/InterlispOrg-Inc) has been approved as a 501c3 with the IRS. The simplest way to donate is using the GitHub Sponsor button.
-* recent reviews [on twitter](https://twitter.com/ftrain/status/1470968024756895744) were complimentary of our efforts
+* [InterlispOrg Inc](about/possible-organizational-partners/interlisporg-inc) has been approved as a 501c3 with the IRS. The simplest way to donate is using the GitHub Sponsor button.
+* recent reviews [on twitter](about/twitter) were complimentary of our efforts
 
 ## 11/2021
 [Medley Interlisp: Tools and Utilities](https://interlisp.org/docs/2021-interlisp-book-3.pdf) (Interlisp book 3) now available for preview; comments and corrections welcome.
