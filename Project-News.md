@@ -26,7 +26,7 @@ Merry Christmas and Happy New Year
    * a mouse and keyboard are still necessary on tablets.
    * For the immersive "Lisp Machine" experience, run "fullscreen".
    * HiRes display? Most browsers will let you scale the pixels.
-* [InterlispOrg Inc](about/possible-organizational-partners/interlisporg-inc) has been approved as a 501c3 with the IRS. The simplest way to donate is using the GitHub Sponsor button.
+* [InterlispOrg Inc](about/partners/interlisporg-inc) has been approved as a 501c3 with the IRS. The simplest way to donate is using the GitHub Sponsor button.
 * recent reviews [on twitter](about/twitter) were complimentary of our efforts
 
 ## 11/2021
