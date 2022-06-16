@@ -112,7 +112,7 @@ In this document, we use “we” to mean our contributors:
 * as contributors to an Open Source project
   * 384 issues, 133 closed, 151 open [Issues](https://github.com/Interlisp/medley/issues). 54 [discussions](https://github.com/Interlisp/medley/discussions)
   * 191 Medley [pull requests](https://github.com/Interlisp/medley/pulls), 387 Maiko [pull requests](https://github.com/Interlisp/maiko/pulls)
-* as a (non-profit) corporation: [InterlispOrg Inc](../possible-organizational-partners/interlisporg-inc.md).
+* as a (non-profit) corporation: [InterlispOrg Inc](../partners/interlisporg-inc.md).
 
 We depend on volunteers to help. If you’d like to help but aren’t sure how to, ask.
 

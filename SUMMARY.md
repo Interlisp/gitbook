@@ -1,6 +1,7 @@
 # Table of contents
 
-* [About the Interlisp Project](README.md)
+* [Welcome to Interlisp.Org](README.md)
+* [About the Interlisp Project](<README (1).md>)
   * [Guest Book](about/guest-book.md)
   * [Project News](about/news/README.md)
     * [2021 Medley Interlisp Annual Report](about/news/2021-medley-interlisp-annual-report.md)
@@ -35,4 +36,3 @@
 * [History](history.md)
   * [Interlisp History](history/interlisp-history.md)
   * [Interlisp Timeline](history/interlisp-timeline.md)
-
