@@ -1,15 +1,11 @@
 ---
-description: home page
+description: For internal documents that don't have another suitable home
 cover: .gitbook/assets/logo_interlisp.svg
 coverY: 0
 layout: landing
 ---
 
-# Welcome to Interlisp.Org
+# Documentation for Medley Interlisp
 
-* [About](<README (1).md>)
-* [What is it?](what-is-medley/)
-* [How to try it](running/)
-* [Other Documentation](documentation/)
-* [History and bibliography](history.md)
+
 

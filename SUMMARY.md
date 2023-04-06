@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Interlisp.Org](README.md)
+* [Documentation for Medley Interlisp](README.md)
 * [About the Interlisp Project](<README (1).md>)
   * [Guest Book](about/guest-book.md)
   * [Project News](about/news/README.md)
