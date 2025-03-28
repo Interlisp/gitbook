@@ -8,11 +8,11 @@ The Executive Window or Exec on the left is the primary window where we can writ
 
 You can create more executive windows in your LISP flavor of choice through the EXEC menu item. Keep on reading to learn more about menus. Yes, you can have multiple executive windows present at the same time.
 
-When you start Medley, the default executive window prints some system information ( followed by the flavor. A blinking caret in the form of an up arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now!).
+When you start Medley, the default executive window prints some system information (which you can ignore) followed by the flavor. A blinking caret in the form of an up arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now! 😉).
 
 <figure><img src=".gitbook/assets/EXEC (INTERLISP).png" alt=""><figcaption></figcaption></figure>
 
-Interesting fact: When you have multiple executive windows open, each Exec keeps track of which number of window it is (as in: is this the second or third or the seven-hundredth exec) and the line number in relation to the other execs present. So, if you're on Line 8 on one window, the next line when you switch to a new window will be Line 9 even if the previous line was Line 4.
+❕When you have multiple executive windows open, each Exec keeps track of which number of window it is (as in: is this the second or third or the seven-hundredth exec) and the line number in relation to the other execs present. So, if you're on Line 8 on one window, the new line when you switch to a new window will be Line 9, even if the previous line was something else.
 
 #### Prompt Window:
 
@@ -30,7 +30,7 @@ Menus:
 
 To open a menu, _hold_ right-click on any empty space on the screen. The following menu should appear. Because Medley Interlisp is a 30-year-old system, navigating the interface is slightly different than the modern computers we are used to. But fear not; your mouse and keyboard are all you need!&#x20;
 
-To select or click a menu item: While holding the right-click, move your cursor to the option you want to select and let go of the right-click. The menu will disappear but the system already knows the window you want to call, so left-click again and drag to create the window for the option you selected.
+To select or click a menu item: While holding the right-click, move your cursor to the option you want to select and let go of the right-click. The menu will disappear, but the system already knows the window you want to call, so left-click again and drag to create the window for the option you selected.
 
 To expand a menu item: While holding right-click, with the cursor on the item you want to expand, hold left-click and slide right- the expanded menu should appear! You can let go the left mouse button once the expanded menu appears, but keep the right button pressed and select any one of the new options just like any other menu item.&#x20;
 
