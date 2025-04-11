@@ -4,13 +4,13 @@ Building quick and easy interfaces is one of Medley Interlisp's most powerful fe
 
 In this chapter, we'll learn to do the following things in Medley:
 
-* Build windows
-* Assign variable names to values
-* Build menus and buttons
-* Attach windows and menus
-* Build functions
-* Connect functions to button clicks
-* Display function outputs in windows
+* Build windows.
+* Assign variable names to values.
+* Build menus and buttons.
+* Attach windows and menus.
+* Build functions.
+* Display function outputs in windows.
+* Connect functions to button clicks.
 
 ***
 
@@ -93,7 +93,7 @@ We can define a new function with `DEFINEQ` . In your Exec, type:
 
 This tells Medley to create a function called print2display which has a parameter `X`and a definition `(PRIN1 "Help! Navigation system compromised. What is lost will never be found." display)` .
 
-The function prints the text in the window `display` .
+The function `prints2display`prints the text in the window `display` .
 
 
 
