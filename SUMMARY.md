@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Getting Medley Up and Running](getting-medley-up-and-running.md)
+* [Medley Online and Medley Local](medley-online-and-medley-local.md)
 * [Understanding and Navigating the Interface](understanding-and-navigating-the-interface.md)
 * [Reading LISP Syntax](reading-lisp-syntax.md)
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
