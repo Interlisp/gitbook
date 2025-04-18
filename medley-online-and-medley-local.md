@@ -11,7 +11,7 @@ function saves the current state of Medley's virtual memory in a "sysout file". 
 
 **Accessing Files**
 
-Once inside Medley Online, to your very left, you'll find a side bar expandable to a left-arrow icon.&#x20;
+Once inside Medley Online, to your very left, you'll find a side bar expandable with a left-arrow icon.&#x20;
 
 <img src=".gitbook/assets/image.png" alt="" data-size="original"> &#x20;
 
