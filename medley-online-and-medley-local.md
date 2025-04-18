@@ -29,4 +29,4 @@ When you save files in Medley Local, your files are saved to the path: `il/home/
 "username" will of course be replaced by your username.
 {% endhint %}
 
-As we learn to use `LOAD` , `MAKEFILES` and other helpfule function related to handling files in Medley Interlisp, we don't need to change our filepaths for either versions of Medley but it's good to be aware where they are located so we can use that information later!
+As we learn to use `LOAD` , `MAKEFILES` and other helpful functions related to handling files in Medley Interlisp, we don't need to change our file paths while using either versions of Medley but it's good to be aware where they are located so we can use that information later to organize our files better.
