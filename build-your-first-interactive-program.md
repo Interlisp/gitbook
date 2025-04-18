@@ -95,6 +95,8 @@ This tells Medley to create a function called print2display which has a paramete
 
 The function `prints2display`prints the text in the window `display` .
 
+\[unfinished section about creating lists and cycling through them]
+
 
 
 
