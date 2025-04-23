@@ -6,5 +6,4 @@
 * [Reading LISP Syntax](reading-lisp-syntax.md)
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
-* [All About Files](all-about-files.md)
 * [Temporary Notes](temporary-notes.md)
