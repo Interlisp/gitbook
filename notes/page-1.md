@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Page 1
 
 **History of Lisp**
