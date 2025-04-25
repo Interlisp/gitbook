@@ -42,11 +42,11 @@ In the Exec, type: &#x20;
 
 Medley is now aware of a new region named `window-region`. We can use this region for any new window we make.
 
-2. `(SETQ display-window (CREATEW window-region "DISPLAY WINDOW" 10))`&#x20;
+2. `(SETQ display-window (CREATEW window-region "DISPLAY MODULE" 10))`&#x20;
 
 This creates a new variable `display-window` which when called will create a new window at the region `window-region`.
 
-3. Create a couple of instances of our new window by typing `display-window` in the Exec.
+3. We can open or close this window with `(OPENW display-window)` and `(CLOSEW display-window)`.at
 
 {% hint style="info" %}
 We don't write variable names inside " " because they are not static strings to store but data containers that Medley can open.
@@ -69,35 +69,86 @@ Creating a menu defines a menu object in the background but doesn't create an in
 Similar to MENU, we can also use:
 
 * `(ATTACHMENU button-menu display 'TOP 'CENTER)` : Attaches the menu `button-menu` to the window `display` at the top, centered.
-* `(ADDMENU button-menu display)` : Adds `button-menu` to the bottom-left corner of `display` .&#x20;
+* `(ADDMENU button-menu display)` : Adds `button-menu` to the bottom-left corner of `display-window` .&#x20;
 
 In your Exec type:
 
-1. `(SETQ button-menu (CREATE MENU ITEMS ← '("NAVIGATION SYSTEM FAILED"))`&#x20;
+1. `(SETQ button-menu (CREATE MENU ITEMS ← '("NAVIGATION SYSTEM FAILURE")))`&#x20;
 
 This creates a menu called `button-menu` with no title and one item only.
 
-2. `(ATTACHMENU button-menu display 'LEFT 'CENTER)`
-
-You should see a button-like window appear on the left edge of the window `display` with the text "NAVIGATION SYSTEM FAILED".
+2. `(ATTACHMENU button-menu display-window 'LEFT 'CENTER)`\
+   You should see a button-like window appear on the left edge of the window `display-window`with the text "NAVIGATION SYSTEM FAILED".
+3. Right now, the button doesn't do anything. Next, we'll connect a function to the button which can print text to `display-window` .
 
 {% hint style="info" %}
-Right now, the button doesn't do anything. Next, we'll connect a function to the button which can print text to `display` .
+We can detach and remove this menu with  `(DELETEMENU button-menu display-window)` . This does not delete the menu from memory. You can always repeat Step 2 to reattach the menu.
 {% endhint %}
+
+***
+
+Let's create a list of distress calls we can randomly cycle through each time we press our button! In your Exec, type:
+
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
+```lisp
+(SETQ distress-calls (LIST
+"Help! Nav systems compromised. What is lost will never be found."
+"Help! Nav systems compromised. Lethal solar flare imminent."
+"Help! Nav systems compromised. Stuck in orbit. Planetfall- ETA: 2 cycles."
+"Help! Nav systems compromised. Class 3 Destroyer approaching. Contact- ETA: 6 cycles."
+"Help! Nav systems compromised. Direction constant but unknown. Debris field. Contact- High."
+))
+```
+{% endcode %}
+
+Now, that we have a list named `distress-calls` , we can set up a function called `nav-sys` that displays a random message from this list to our `display-window` . Next, we'll connect this function to our `button-menu`.
 
 ***
 
 We can define a new function with `DEFINEQ` . In your Exec, type:
 
-`(DEFINEQ (print2display (LAMBDA (X) (PRIN1 "Help! Navigation system compromised. What is lost will never be found." display))))`
+`(DEFINEQ (nav-sys (LAMBDA (X) (PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) display-window))))`
 
-This tells Medley to create a function called print2display which has a parameter `X`and a definition `(PRIN1 "Help! Navigation system compromised. What is lost will never be found." display)` .
+Let's break down our function:
 
-The function `prints2display`prints the text in the window `display` .
+1. `nav-sys`: Name of function
+2. `PRIN1`: for printing to a specific window
+3. `CAR`: returns the first element of a list
+4. `(NTH list number)`: returns the tail of the specified `list`starting from the specified `number`. So, if we have a list `(A B C D)` and we use `(NTH (ABCD) 2)`, we'll get `(B C D)` as the output.
+5. `(RAND value1 value2)`: returns a random value in a range from `value1` from `value2`.
+6. `(LENGTH list)`: returns the length of the list.
+7. `(CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls))))` :&#x20;
+   1. `(RAND 1 (LENGTH distress-calls))` returns a random number between 1 and the total length of the list `distress-calls`.
+   2. `(NTH distress-calls` returns the tail of the list starting from the element at that random number.
+   3. `(CAR` returns the first element of that tail.
+   4. `(PRIN1 ... display-window)` prints that element to `display-window` .
+   5. And of course, `(DEFINEQ (nav-sys (LAMBDA (X)` gives the name `nav-sys` to our function. For our current function, we have no use for any parameters, so X is declared following conventions but unused.
 
-\[unfinished section about creating lists and cycling through them]
+***
 
+Let's delete the button we made before with `(DELETEMENU button-menu display-window)` .
 
+We'll make a new `nav-button` with our `nav-sys` function attached!
+
+In your Exec, type:
+
+{% code overflow="wrap" lineNumbers="true" %}
+```lisp
+(SETQ nav-button 
+(CREATE MENU 
+ITEMS ← '("NAVIGATION SYSTEM FAILURE")
+WHENSELECTEDFN ← (FUNCTION nav-sys)
+))
+```
+{% endcode %}
+
+Our new button only has a small addition (and a different name).&#x20;
+
+`WHENSELECTEDFN ← (FUNCTION nav-sys)` executes the function `nav-sys` when menu-item (our button `nav-button` ) is selected.
+
+Go ahead and interact with your button!
+
+Is your distress call module working? Cool! In the upcoming chapters, we'll add more features to our Display Module. While building this project, for each feature we'll explore and learn new bits of Medley Interlisp!
 
 
 
