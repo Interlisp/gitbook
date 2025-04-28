@@ -12,5 +12,5 @@ If you're looking for a centralized hub of literature related to Interlisp and M
 
 This primer is a great starting point, serving as a beginner's guide to programming in Interlisp! This text has one goal: to teach you different features of Medley Interlisp while parallelly building a solid foundation and muscle memory of writing Interlisp and interacting with Medley.&#x20;
 
-It'll cover only a little more than the basics of Medley Interlisp. For a more exhaustive reference, please check out the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) (IRM).
+It'll cover only a little more than the basics of environment. For a more exhaustive reference, please check out the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) (IRM).
 
