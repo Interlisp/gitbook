@@ -1,8 +1,12 @@
 ---
+description: >-
+  This is the originally intended outline for the Introduction. It makes sense
+  to update the intro as we add more chapters to the primer. For now, the
+  current intro is a good enough start.
 hidden: true
 ---
 
-# Page 1
+# Intro- Outline
 
 **History of Lisp**
 

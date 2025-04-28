@@ -6,7 +6,8 @@
 * [Understanding LISP Syntax](understanding-lisp-syntax.md)
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
+* [Proposed topics for next chapters](proposed-topics-for-next-chapters.md)
 
 ## Notes
 
-* [Page 1](notes/page-1.md)
+* [Intro- Outline](notes/intro-outline.md)
