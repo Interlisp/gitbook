@@ -7,6 +7,6 @@
 * How to use PROG.
 * Debugging.
 * How to use the structure editor.
-* Making icons
+* Making icons and more about interfaces.
 * Using TEDIT.
 * Hardcopy.
