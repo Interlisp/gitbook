@@ -2,7 +2,7 @@
 
 #### When to choose which?
 
-You can run Medley either online or locally. Both are fully capable environments, so rest assured, you don't have to compromise on the features available to you. Choose the online version if you want quick and easy access to Medley. You can login as a guest and start poking around right away. When you're ready to dive deeper and want to keep track of files and the state of your environment across sessions, you can create a free account. Use that to log in for your next sessions. Check out [Access Medley Online](https://interlisp.org/software/access-online/) if you have more questions.
+You can run Medley either online (through a web browser) or locally. Both are fully capable environments, so rest assured, you don't have to compromise on the features available to you. Choose the online version if you want quick and easy access to Medley. You can login as a guest and start poking around right away. When you're ready to dive deeper and want to keep track of files and retain the state of your environment across sessions, you can create a free account. Use that to log in for your next sessions. Check out [Access Medley Online](https://interlisp.org/software/access-online/) if you have more questions.
 
 If you prefer a more hands-on, web-independent approach, you can build Medley on your computer. Refer to the documentation here: [Install and Run](https://interlisp.org/software/install-and-run/), to learn more about how to get Medley installed on your specific operating system.&#x20;
 
