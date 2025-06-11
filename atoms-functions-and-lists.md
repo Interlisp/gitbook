@@ -26,7 +26,7 @@ We call functions by enclosing them in parentheses: `(function-name)` . There ar
 
 To clarify:&#x20;
 
-LAMBDA function: `(DEFINEQ (adder (LAMBDA (X  Y) ((+ X Y))))`
+LAMBDA function: `(DEFINEQ (adder (LAMBDA (X  Y) (+ X Y))))`
 
 * When called `(adder 3 (+ 3 4))` outputs `10`because the LAMBDA function evaluated `(+3 4)` before assigning that value to `Y` . So, the output is X (3) + Y (7) = 10.
 
