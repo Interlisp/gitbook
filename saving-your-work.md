@@ -4,15 +4,15 @@ Medley's File Manager subsystem is content-aware. It can do more than just save 
 
 For saving and loading our work, important functions and commands(to be typed in the Exec) are:&#x20;
 
-1.  `(FILES?)`: Gives a list of objects we created that can be "dumped"/written to a file and asks for directions. \
+1.  `(FILES?)`: Gives a list of objects we created that can be "dumped"/written to a file and asks for directions. This does not update the actual file in storage- it logs what needs to be saved eventually.\
 
 
     <figure><img src=".gitbook/assets/SAVE ADDER FILE.png" alt="" width="425"><figcaption></figcaption></figure>
-2.  `(MAKEFILES 'filename)`: Commits the changes made to a file in storage.\
+2.  `(MAKEFILES 'filename)`: Commits the changes made to a file in storage. You can now find the file in your storage path.\
 
 
     <figure><img src=".gitbook/assets/MAKEFILE ADDER FUNCTION.png" alt="" width="433"><figcaption></figcaption></figure>
-3.  `(LOAD 'filename)`: Loads the file and all its objects.\
+3.  `(LOAD 'filename)`: Loads the file and all its objects. Use this when you start a new Medley session.\
 
 
     <figure><img src=".gitbook/assets/LOAD ADDER FUNCTION.png" alt="" width="406"><figcaption></figcaption></figure>
