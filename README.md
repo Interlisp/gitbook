@@ -2,7 +2,7 @@
 
 Welcome to Medley Interlisp for Beginners! This primer is intended for readers who've programmed before in at least one other language. We don't assume expertise but we do expect you to be comfortable with thinking in code and computation. So, some background, even if trivial, always helps!
 
-Interlisp or Interactive Lisp is a dialect of LISP from the 80s. While Common Lisp was an amalgamation of community-guided standard practices, other interesting dialects at the periphery of the language were set aside. Interlisp, is one such "lispy" programming language. Medley is a graphical development environment built to facilitate exploratory and interactive programming with Interlisp and Common Lisp.&#x20;
+Interlisp is a dialect of LISP from the 80s. While Common Lisp was an amalgamation of community-guided standard practices, other interesting dialects at the periphery of the language were set aside. Interlisp, is one such "lispy" programming language. Medley is a graphical development environment built to facilitate exploratory and interactive programming with Interlisp and Common Lisp.&#x20;
 
 Combined, Medley Interlisp is a powerful tool for building quick interfaces and modular LISP programs, with numerous quality-of-life features that still hold value for programmers coming from modern systems.
 
