@@ -15,7 +15,7 @@ Once inside Medley Online, to your very left, you'll find a sidebar expandable w
 
 <img src=".gitbook/assets/image.png" alt="" data-size="original"> &#x20;
 
-We'll talk about the other useful options this sidebar provides. For now, let's focus on the first one, a useful virtual file manager. Click, and you should see a warning that the file manager will open in a new window. Go ahead and press Ok. A new tab should appear in your browser with the following window:
+We'll talk about the other options this sidebar provides. For now, let's focus on the first one, a useful virtual file manager. Click, and you should see a warning that the file manager will open in a new window. Go ahead and press Ok. A new tab should appear in your browser with the following window:
 
 <figure><img src=".gitbook/assets/filemanagerscreen.png" alt=""><figcaption></figcaption></figure>
 
