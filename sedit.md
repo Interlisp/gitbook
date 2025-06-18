@@ -41,3 +41,5 @@ We can use the `(RENAME 'old-function-name 'new-function-name)` method. In the E
 Our function name has now been changed from `new-fn` to `differ` . Try out the function and see if it works:
 
 <figure><img src=".gitbook/assets/differ.png" alt=""><figcaption></figcaption></figure>
+
+\[Add mentions of copy, delete, key combinations]
