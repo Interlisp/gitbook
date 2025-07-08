@@ -1,8 +1,8 @@
 # Loops and Conditionals
 
-Medley provides a set of useful functions to set up conditional and looping logic. It also gives us a large list of functions to compare and understand our data.
+Medley offers a set of useful special forms for conditional and looping logic (eg, AND, OR, FOR, WHILE). It also provides us with a list of functions to compare and understand our data.
 
-You can always refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapter 9 on _Lists and Iterative Statements_ for an exhaustive list of options available.
+You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapter 9, "Lists and Iterative Statements," for an exhaustive list of available options.
 
 `(FLOATP X)`: Returns x if x is a floating point number. Otherwise returns NIL.
 
@@ -12,14 +12,11 @@ You can always refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s
 
 `(EQP X Y)`: Returns T if x and y are number and equal in value. Otherwise returns NIL.
 
-`(EQUAL X Y)`: Returns T if:
+`(EQUAL X Y)`: Returns T if X and Y are numbers with equal value or strings with the same sequence of characters or lists where CAR of X and Y and CDR of X and Y are equal. Otherwise returns NIL.
 
-* X and Y are numbers with equal value
-* or strings with the same sequence of characters
-* or lists where CAR of X and Y and CDR of X and Y are equal.&#x20;
-* Otherwise returns NIL.
+#### Conditionals
 
-..
+COND&#x20;
 
 
 
