@@ -68,7 +68,9 @@ Medley has a large collection of iterative statement operators. Check out the IR
 
 ***
 
-**Do it yourself:** Write a
+Let's write a loop to collect all the numbers from a list of mixed data in a new list. Try doing it yourself. Does it match:
+
+<figure><img src=".gitbook/assets/findnumberfromlist.png" alt=""><figcaption></figcaption></figure>
 
 
 
