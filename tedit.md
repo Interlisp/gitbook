@@ -30,3 +30,7 @@ Options like Page Layout, Char looks, and Para looks will open their respective 
 
 <figure><img src=".gitbook/assets/tedit text centered exmenu.png" alt=""><figcaption></figcaption></figure>
 
+While the expanded menu is one way to have a powerful suite of editing tools always available, you can also use the simpler but more accessible TEdit Buttons through the native menu.
+
+<figure><img src=".gitbook/assets/tedit buttons.png" alt=""><figcaption></figcaption></figure>
+
