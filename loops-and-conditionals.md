@@ -26,7 +26,15 @@ A verbose conditional block like `(if A then B else if C then D else E)` can be 
 T marks the default value. If all previous condition checks return NIL, then the argument following T is evaluated.
 {% endhint %}
 
-The arguments after COND are referred to as clauses. Each clause is evaluated in order and is a list of the form (P<sub>1</sub> C<sub>1</sub> ... C<sub>1N</sub>). Here, P is the condition to be checked. If P returns true, then C1 to C1N are evaluated sequentially.
+The arguments after COND are referred to as clauses.&#x20;
+
+(COND CLAUSE<sub>1</sub> CLAUSE<sub>2</sub> CLAUSE<sub>3</sub> ... CLAUSE<sub>N</sub>)
+
+Each clause is evaluated in order and is a list of the form (P<sub>1</sub> C<sub>1</sub> ... C<sub>1N</sub>). Here, P is the condition to be checked. If P<sub>1</sub> returns true, then C<sub>1</sub> to C<sub>1N</sub> are evaluated sequentially. If P1 is not true, then we evaluate P2 and then P3, and so on. If none of the conditions are true, then `COND` returns NIL.
+
+
+
+
 
 
 
