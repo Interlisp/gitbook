@@ -34,3 +34,4 @@ While the expanded menu is one way to have a powerful suite of editing tools alw
 
 <figure><img src=".gitbook/assets/tedit buttons.png" alt=""><figcaption></figcaption></figure>
 
+...
