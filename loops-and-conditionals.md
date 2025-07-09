@@ -18,7 +18,15 @@ You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapte
 
 You may have used if/else statements in other programming languages. `COND` can be used to chain together multiple if/else logic concisely. You can consider it similar to `match` blocks.
 
+A verbose conditional block like `(if A then B else if C then D else E)` can be rewritten instead as:
 
+`(COND (A B)(C D)(T E))`
+
+{% hint style="info" %}
+T marks the default value. If all previous condition checks return NIL, then the argument following T is evaluated.
+{% endhint %}
+
+The arguments after COND are referred to as clauses. Each clause is evaluated in order and is a list of the form (P<sub>1</sub> C<sub>1</sub> ... C<sub>1N</sub>). Here, P is the condition to be checked. If P returns true, then C1 to C1N are evaluated sequentially.
 
 
 
