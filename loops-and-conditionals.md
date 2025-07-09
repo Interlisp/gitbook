@@ -34,15 +34,37 @@ Each clause is evaluated in order and is a list of the form (P<sub>1</sub> C<sub
 
 #### Loops
 
-Similar to other languages, you can use operators like FOR, DO, WHILE to set up loops.
+Similar to other languages, you can use operators like FOR and WHILE to set up loops.
 
 `(for X from 1 to 5 do (PRINT X)`
 
-Medley has a large collection of iterative statement operators. Check out the IRM's _Conditionals and Iterative Statements_ chapter for a full list. Here's a select few as examples:
+Medley has a large collection of iterative statement operators. Check out the IRM's _Conditionals and Iterative Statements_ chapter for a full list. Here are a select few as examples:
 
 DO: Evaluates the form/argument for each iteration.
 
-COLLECT:&#x20;
+COLLECT:  Puts the value of all iterations in a list.
+
+JOIN: Returns a list with all values concatenated.
+
+SUM: Returns the sum of all values.
+
+FROM: Specifies the starting value.
+
+TO: Specifies the end value.
+
+IN: Finds one instance of a matching element from a list with each iteration.
+
+WHEN: Only runs when the condition is met.
+
+
+
+
+
+
+
+
+
+
 
 
 
