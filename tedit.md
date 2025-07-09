@@ -1,4 +1,4 @@
-# TEDIT
+# TEdit
 
 TEDIT is Medley's native text editor. You can use it to create and edit text files. Several formatting options to change the appearance of the text and the page, including features like inserting images, are available.
 
@@ -22,3 +22,6 @@ You can change the appearance of your text and the layout of the page. Go to Loo
 
 <figure><img src=".gitbook/assets/tedit font changes.png" alt=""><figcaption></figcaption></figure>
 
+We can access more functions through the Expanded Menu. Click on it, and a new panel titled TEdit Menu should appear permanently above your TEdit window.
+
+<figure><img src=".gitbook/assets/tedit ex menu.png" alt=""><figcaption></figcaption></figure>

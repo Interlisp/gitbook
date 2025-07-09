@@ -9,7 +9,7 @@
 * [Saving Your Work](saving-your-work.md)
 * [SEdit](sedit.md)
 * [Loops and Conditionals](loops-and-conditionals.md)
-* [TEDIT](tedit.md)
+* [TEdit](tedit.md)
 * [Proposed topics for next chapters](proposed-topics-for-next-chapters.md)
 
 ## Notes
