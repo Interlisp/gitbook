@@ -2,7 +2,7 @@
 
 Medley offers a set of useful functions and operators for conditionals and loops (e.g., COND, IF, AND, OR, FOR, WHILE). It also provides us with a list of functions to compare our data and understand its type.
 
-You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapter 9, "Lists and Iterative Statements," for an exhaustive list of available options. Here's a small collection:
+You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapter 9, "Lists and Iterative Statements," for an exhaustive list of available options. Here are a select few as examples:
 
 `(FLOATP X)`: Returns x if x is a floating point number. Otherwise returns NIL.
 
@@ -10,9 +10,9 @@ You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapte
 
 `(STRINGP X)`: Returns x if x is a string. Otherwise returns NIL.
 
-`(EQP X Y)`: Returns T if x and y are number and equal in value. Otherwise returns NIL.
+`(EQP X Y)`: Returns T if x and y are numbers and equal in value. Otherwise returns NIL.
 
-`(EQUAL X Y)`: Returns T if X and Y are numbers with equal value or strings with the same sequence of characters or lists where CAR of X and Y and CDR of X and Y are equal. Otherwise returns NIL.
+`(EQUAL X Y)`: Returns T if X and Y are numbers with equal value, or strings with the same sequence of characters, or lists where CAR of X and Y and CDR of X and Y are equal. Otherwise returns NIL.
 
 #### Conditionals
 
@@ -38,23 +38,23 @@ Similar to other languages, you can use operators like FOR and WHILE to set up l
 
 `(for X from 1 to 5 do (PRINT X)`
 
-Medley has a large collection of iterative statement operators. Check out the IRM's _Conditionals and Iterative Statements_ chapter for a full list. Here are a select few as examples:
+Medley has a large collection of iterative statement operators. Check out the IRM's _Conditionals and Iterative Statements_ chapter for a full list. Here's a small collection:
 
-DO: Evaluates the form/argument for each iteration.
+`DO`: Evaluates the form/argument for each iteration.
 
-COLLECT:  Puts the value of all iterations in a list.
+`COLLECT`:  Puts the value of all iterations in a list.
 
-JOIN: Returns a list with all values concatenated.
+`JOIN`: Returns a list with all values concatenated.
 
-SUM: Returns the sum of all values.
+`SUM`: Returns the sum of all values.
 
-FROM: Specifies the starting value.
+`FROM`: Specifies the starting value.
 
-TO: Specifies the end value.
+`TO`: Specifies the end value.
 
-IN: Finds one instance of a matching element from a list with each iteration.
+`IN`: Finds one instance of a matching element from a list with each iteration.
 
-WHEN: Only runs when the condition is met.
+`WHEN`: Only runs when the condition is met.
 
 
 
