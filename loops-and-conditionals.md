@@ -16,7 +16,9 @@ You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapte
 
 #### Conditionals
 
-COND&#x20;
+You may have used if/else statements in other programming languages. `COND` can be used to chain together multiple if/else logic concisely. You can consider it similar to `match` blocks.
+
+
 
 
 
