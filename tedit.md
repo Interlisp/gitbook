@@ -25,3 +25,8 @@ You can change the appearance of your text and the layout of the page. Go to Loo
 We can access more functions through the Expanded Menu. Click on it, and a new panel titled TEdit Menu should appear permanently above your TEdit window.
 
 <figure><img src=".gitbook/assets/tedit ex menu.png" alt=""><figcaption></figcaption></figure>
+
+Options like Page Layout, Char looks, and Para looks will open their respective menus on top of the expanded menu.
+
+<figure><img src=".gitbook/assets/tedit text centered exmenu.png" alt=""><figcaption></figcaption></figure>
+
