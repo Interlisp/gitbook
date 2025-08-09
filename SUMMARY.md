@@ -8,8 +8,9 @@
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
 * [Saving Your Work](saving-your-work.md)
 * [SEdit](sedit.md)
-* [Loops and Conditionals](loops-and-conditionals.md)
+* [Loops and Conditionals(](loops-and-conditionals.md)
 * [TEdit](tedit.md)
+* [Debugging](debugging.md)
 * [Proposed topics for next chapters](proposed-topics-for-next-chapters.md)
 
 ## Notes

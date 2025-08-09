@@ -13,7 +13,7 @@ We want to make two changes to `new-fn`:
 1. Edit the function to output the difference of X and Y instead.
 2. Rename the function to a more appropriate name: `differ`
 
-There are several functions that can be used with SEdit. Refer to Chapter 16 of the IRM to learn more about SEdit's capabilities. For now we'll focus on the function to edit a function: `(DF function-name)`
+There are several functions that can be used with SEdit. Refer to Chapter 16 of the IRM to learn more about SEdit's capabilities. For now we'll focus on the function to edit the definition of a function: `(DF function-name)`
 
 In the Exec, type:\
 `(DF new-fn)`
