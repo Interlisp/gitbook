@@ -11,8 +11,8 @@
 * [Loops and Conditionals](loops-and-conditionals.md)
 * [TEdit](tedit.md)
 * [Debugging](debugging.md)
-* [Proposed topics for next chapters](proposed-topics-for-next-chapters.md)
 
 ## Notes
 
+* [Proposed topics for next chapters](notes/proposed-topics-for-next-chapters.md)
 * [Intro- Outline](notes/intro-outline.md)
