@@ -2,7 +2,7 @@
 
 Medley's Structure Editor, or SEdit, is a program for editing your code. While the Exec is a central hub for interacting with Medley, SEdit is a dedicated window for making changes to the functions, variables, macros, and data structures we have defined. Remember, all Lisp code is made up of lists, which, regardless of size and shape, can be read by Medley as a data _structure_. Just like the File Manager, SEdit interacts with live Lisp objects in memory. So, objects loaded from files and edited by SEdit still need to be saved using `MAKEFILES` , like we learned in the previous chapter.&#x20;
 
-Let's a define an incomplete function we'll want to edit to fix. In your Exec, type:
+Let's define an incomplete function we'll want to edit to fix. In your Exec, type:
 
 `(DEFINEQ (new-fn (LAMBDA  (X Y)(X Y)))))`
 
