@@ -43,3 +43,5 @@ Our function name has now been changed from `new-fn` to `differ` . Try out the f
 <figure><img src=".gitbook/assets/differ.png" alt=""><figcaption></figcaption></figure>
 
 \[Add mentions of copy, delete, key combinations]
+
+\[Talk about DV and ED mappings]
