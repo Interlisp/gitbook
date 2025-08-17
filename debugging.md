@@ -38,9 +38,12 @@ At times, you will define variables that are larger, more complex than an atom. 
 
 <figure><img src=".gitbook/assets/inspect menu.png" alt=""><figcaption></figcaption></figure>
 
-Select Inspect from menu and a window appears with two columns. The first column displays the index positions of the list items and the second column displays the items in that position.
+Select **Inspect** from menu and a window appears with two columns. The first column displays the numbered positions of the list items and the second column displays the item in that position.
 
 <figure><img src=".gitbook/assets/inspecting x.png" alt=""><figcaption></figcaption></figure>
 
-
-
+{% hint style="info" %}
+Notice how we use quote (') before the variable name when we need to edit the definition of the variable. The system does not need to evaluate or understand the contents. It only needs to display itself for us to make changes. Quote (') tells Lisp not to evaluate or "run" what follows.\
+\
+But when it comes to Inspect, we do want the system to understand the contents of the list so it can organize and display it neatly for us to review. No quotes for that operation!
+{% endhint %}
