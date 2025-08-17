@@ -14,7 +14,7 @@ Part of what sets Medley apart is a collection of dedicated functions and featur
 Remember, we can refer to line numbers from any Exec. You might find it helpful to work with multiple smaller Execs, each focusing on a unique function of the larger program.
 {% endhint %}
 
-Back In the SEdit chapter, we learned about editing the definition of a function with `(DF function-name)`, which Medley internally translates to `(ED 'NAME '(FUNCTIONS FNS :DONTWAIT))`.&#x20;
+Back In the SEdit chapter, we learned about editing the definition of a function with `(DF function-name)`, which Medley internally translates to `(ED 'NAME '(FUNCTIONS FNS :DONTWAIT))`. You don't need to use this expanded form but it's good to know what goes on in the background.&#x20;
 
 &#x20;`(ED 'function-name)`:
 
@@ -23,8 +23,6 @@ While `DF` is for editing functions only, `ED` is the default editor function we
 {% hint style="info" %}
 The :DONTWAIT statement in DF's mapping to ED enables function edits to be tested in the Exec without needing to compile first. Try both DF and ED to edit a function. Does one of them let you switch to the Exec freely? Which one restricts you to SEdit?
 {% endhint %}
-
-
 
 ***
 
@@ -47,3 +45,36 @@ Notice how we use quote (') before the variable name when we need to edit the de
 \
 But when it comes to Inspect, we do want the system to understand the contents of the list so it can organize and display it neatly for us to review. No quotes for that operation!
 {% endhint %}
+
+***
+
+#### BREAK
+
+Breaking a function lets us halt the function midway and interrogate what could be going wrong in a dedicated Break Window. We can break and unbreak entire functions. This is handy when your function is huge, complex and expensive to compute. We can also insert conditional breakpoints inside a function that breaks the function if certain criteria are met. This is useful when you want to ask questions about the flow of data through your program. Or when you want your program to stop its operation if (as opposed  to printing the state and continuing).
+
+{% hint style="info" %}
+If you're stuck in an infinite loop or just want to break out of the current running function, use **Ctrl + B.**
+{% endhint %}
+
+In a COND, use (CL: BREAK "Something meaningful to print about the break") to trigger a break at a particular point.
+
+Let's define a function that prints out the factorial of any given number.
+
+<figure><img src=".gitbook/assets/real factorial.png" alt=""><figcaption></figcaption></figure>
+
+Factorials can be quite large. Suppose, we want to limit the program so only factorials of numbers no greater than 10 are printed. Pull up SEdit to edit the function `factorial`. Add another condition to the COND block:&#x20;
+
+`((GREATERP X 10)(CL: BREAK "This number is too large. X should be smaller than 10"))`
+
+This tells Medley to break the function if X is greater than 10.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Once the new function is compiled, try a few different values to test if it's working as intended.&#x20;
+
+For `(factorial 11)`, or any number larger than 10, you should see the break window appear with your message:
+
+
+
+
+
