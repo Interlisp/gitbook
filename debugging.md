@@ -30,7 +30,17 @@ The :DONTWAIT statement in DF's mapping to ED enables function edits to be teste
 
 #### **INSPECT**
 
-At times, you will define variables that are larger, more complex than an atom.&#x20;
+At times, you will define variables that are larger, more complex than an atom. As our programs grow larger, we might want to take a quick look at the contents of these variables in an organized, tabular format without opening an editor like SEdit:
+
+<figure><img src=".gitbook/assets/ed sedit.png" alt=""><figcaption></figcaption></figure>
+
+`INSPECT`allows us to do exactly that:
+
+<figure><img src=".gitbook/assets/inspect menu.png" alt=""><figcaption></figcaption></figure>
+
+Select Inspect from menu and a window appears with two columns. The first column displays the index positions of the list items and the second column displays the items in that position.
+
+<figure><img src=".gitbook/assets/inspecting x.png" alt=""><figcaption></figcaption></figure>
 
 
 
