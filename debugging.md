@@ -74,6 +74,8 @@ Once the new function is compiled, try a few different values to test if it's wo
 
 For `(factorial 11)`, or any number larger than 10, you should see the break window appear with your message:
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 
 
 
