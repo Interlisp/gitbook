@@ -94,5 +94,18 @@ After we've traced a function with `TRACE function-name`, executing the function
 
 #### ADVISE
 
-As our programs grow more complex, we might not want to change the original code when we need to make a small, temporary change. ADVISE is a Medley feature to modify the behavior of a function by wrapping code "around" that function without having to edit it. It's also useful when you're working with someone else's code and want to preserve the integrity of their code.
+As our programs grow more complex, we might not want to change the original code when we need to make a small, temporary change. `ADVISE` is a Medley feature to modify the behavior of a function by wrapping code "around" that function without having to edit it. It's also useful when you're working with someone else's code and want to preserve the integrity of their code.
+
+The `ADVISE` function takes four arguments:\
+`(ADVISE 'function-name 'WHEN 'WHERE 'WHAT)`
+
+`WHEN` specifies when in the function call should the advised code be executed. Before the function, after the function or should it replace the function's body entirely by executing around it. `WHEN` has three valid parameters: `BEFORE`, `AFTER`, `AROUND`
+
+`WHERE` specifies where in a list of advises should the current advise be inserted. `WHERE` has two valid parameters: `FIRST` or `TOP` and `LAST` or `BOTTOM` or `END`. We can use `NIL` for `WHERE` unless we have multiple advises. If `WHEN` is `AROUND`, `WHERE` is considered NIL.
+
+`WHAT` is the advised code to run.
+
+Let's&#x20;
+
+
 
