@@ -94,5 +94,5 @@ After we've traced a function with `TRACE function-name`, executing the function
 
 #### ADVISE
 
-
+As our programs grow more complex, we might not want to change the original code when we need to make a small, temporary change. ADVISE is a Medley feature to modify the behavior of a function by wrapping code "around" that function without having to edit it. It's also useful when you're working with someone else's code and want to preserve the integrity of their code.
 
