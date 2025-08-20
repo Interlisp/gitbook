@@ -11,6 +11,9 @@
 * [Loops and Conditionals](loops-and-conditionals.md)
 * [TEdit](tedit.md)
 * [Debugging](debugging.md)
+* [Drawing in Medley](drawing-in-medley.md)
+* [Grapher](grapher.md)
+* [Additional Resources](additional-resources.md)
 
 ## Notes
 
