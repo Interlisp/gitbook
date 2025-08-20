@@ -105,7 +105,14 @@ The `ADVISE` function takes four arguments:\
 
 `WHAT` is the advised code to run.
 
-Let's&#x20;
+Let's advise our factorial function, to check if X is a string or a number:
 
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
+Now, when we execute factorial, we see:
 
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+We can remove advises from a function using UNADVISE:
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
