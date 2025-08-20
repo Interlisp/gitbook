@@ -56,7 +56,7 @@ Breaking a function lets us halt the function midway and interrogate what could 
 If you're stuck in an infinite loop or just want to break out of the current running function, use **Ctrl + B.**
 {% endhint %}
 
-In a COND, use (CL: BREAK "Something meaningful to print about the break") to trigger a break at a particular point.
+In a COND, use `(CL: BREAK "Something meaningful to print about the break")` to trigger a break at a particular point.
 
 Let's define a function that prints out the factorial of any given number.
 
@@ -76,7 +76,23 @@ For `(factorial 11)`, or any number larger than 10, you should see the break win
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+***
 
+#### TRACE
+
+When your program is not acting as intended, the final output might not necessarily reveal what you need to fix. Being able to look at the internal calculations your functions are making and what output it generates at every step is a useful feature and TRACE lets us do exactly that.&#x20;
+
+Let's trace our factorial function.
+
+<figure><img src=".gitbook/assets/tracing.png" alt=""><figcaption></figcaption></figure>
+
+After we've traced a function with `TRACE function-name`, executing the function will open a Trace-Output window:
+
+<figure><img src=".gitbook/assets/traceoutput.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+#### ADVISE
 
 
 
