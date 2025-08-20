@@ -122,6 +122,6 @@ Try adding two advises to a new function. One should appear before and one after
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-!VALUE can be used to access the final value of function. \
+!VALUE can be used to access the final value of the function. \
 PROGN executes what follows sequentially. We'll learn more about it in the next chapter.
 {% endhint %}
