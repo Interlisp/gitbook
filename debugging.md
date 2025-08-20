@@ -90,6 +90,10 @@ After we've traced a function with `TRACE function-name`, executing the function
 
 <figure><img src=".gitbook/assets/traceoutput.png" alt=""><figcaption></figcaption></figure>
 
+To stop tracing a function use `UNTRACE`:
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 #### ADVISE
