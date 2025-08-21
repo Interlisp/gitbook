@@ -39,7 +39,7 @@ Bit Block Transfer or `BITBLT` is a method for displaying a bitmap inside anothe
 
 `sourcebottom`: A number, starting at 0 for the bottom edge of the sourcebitmap, that tells BITBLT where to start moving pixels from the sourcebitmap. For example, if the bottom 10 rows of pixels of sourcebitmap were not to be moved, sourcebottom should be 10. The default value is 0.
 
-`destinationbitmap`: The bitmap that will receive the sourcebitmap. This is often a window (actually the bitmap of a window, but Interlisp takes care of that for you`).`
+`destinationbitmap`: The bitmap that will receive the sourcebitmap. This is often a window (actually the bitmap of a window, but Interlisp takes care of that for you).
 
 `destinationleft`: A number, starting at 0 for the left edge of the destinationbitmap, that tells BITBLT where to start placing pixels from the sourcebitmap. For example, to place the sourcebitmap 10 pixels in from the left, destinationleft should be 10. The default value is 0.
 
@@ -56,6 +56,8 @@ Bit Block Transfer or `BITBLT` is a method for displaying a bitmap inside anothe
 `texture`:Just use NIL for now.
 
 `clippingregion`: Just use NIL for now.
+
+
 
 
 
