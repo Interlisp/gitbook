@@ -111,11 +111,11 @@ The `ADVISE` function takes four arguments:\
 
 Let's advise our factorial function, to check if X is a string or a number:
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now, when we execute `factorial`, we see:
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can remove advises from a function using `UNADVISE`:
 
@@ -123,7 +123,7 @@ We can remove advises from a function using `UNADVISE`:
 
 Try adding two advises to a new function. One should appear before and one after the function is executed.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 !VALUE can be used to access the final value of the function. \
