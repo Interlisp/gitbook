@@ -12,7 +12,7 @@
 * [TEdit, The Text Editor](tedit-the-text-editor.md)
 * [Debugging](debugging.md)
 * [Drawing and Displaystreams](drawing-and-displaystreams.md)
-* [Grapher](grapher.md)
+* [Making a Graph with Grapher](making-a-graph-with-grapher.md)
 * [Additional Resources](additional-resources.md)
 
 ## Notes
