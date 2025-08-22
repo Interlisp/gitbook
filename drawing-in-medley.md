@@ -25,9 +25,11 @@ To draw, hold down on your left mouse button and to erase hold down your middle 
 
 To save your bitmap, hold down the middle mouse button in the solid gray box in the upper-center area. A menu will appear. While holding down the middle mouse button place your cursor on top of "OK" and let go. Your work will be saved and the window will close. The next time you edit your bitmap, you'll see what you previously drew.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Bit Block Transfer or `BITBLT` is a method for displaying a bitmap inside another bitmap or a window. We can use this to draw an icon in our bitmap editor and then transfer it to a small clickable window that acts a button.&#x20;
+***
+
+Bit Block Transfer or `BITBLT` is a method for displaying a bitmap inside another bitmap or a window.
 
 `BITBLT` has the following parameters:
 
@@ -57,7 +59,27 @@ Bit Block Transfer or `BITBLT` is a method for displaying a bitmap inside anothe
 
 `clippingregion`: Just use NIL for now.
 
+{% hint style="info" %}
+Try displaying your new artwork in a new window. Refer to previous chapters if you need a refresher on windows.
+{% endhint %}
 
+***
 
+Till now, we've learnt how to create windows with a predefined size, border and title. But there's a simpler way to make a window:
 
+In an Exec, type: (SETQ my.window (CREATEW)
+
+Your cursor will change. You can now click, drag and create a new window of any size. You can refer to this window just like any other using the name you set, which is my.window for this example.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Windows are displaystreams. A display stream is a simply a place to display. They determine what is displayed and where. We've learnt to draw with a dedicated bitmap editor but did you know we can also draw on a disaplystream- a window with code?
+
+There are four primary functions for drawing to a displaystream:
+
+DRAWLINE: (DRAWLINE x1 y1 x2 y2 width operation stream color dashing)
+
+Example: (DRAWLINE 10 15 100 150 5 ’INVERT my.window)
+
+DRAWTO:&#x20;
 
