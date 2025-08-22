@@ -34,10 +34,10 @@ To select or click a menu item: While holding the right-click, move your cursor 
 
 To expand a menu item: While holding right-click, with the cursor on the item you want to expand, hold left-click and slide right- the expanded menu should appear! You can let go the left mouse button once the expanded menu appears, but keep the right button pressed and select any one of the new options just like any other menu item.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you right-click on a window instead of an empty area, a slightly different menu appears. This is the context menu for that window. You can use this to close, resize, clear, or shrink the window!
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [^1]: correct later
