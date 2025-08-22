@@ -9,7 +9,7 @@
 * [Saving Your Work](saving-your-work.md)
 * [Editing functions with SEdit](sedit.md)
 * [Loops and Conditionals](loops-and-conditionals.md)
-* [TEdit](tedit.md)
+* [TEdit, The Text Editor](tedit-the-text-editor.md)
 * [Debugging](debugging.md)
 * [Drawing in Medley](drawing-in-medley.md)
 * [Grapher](grapher.md)
