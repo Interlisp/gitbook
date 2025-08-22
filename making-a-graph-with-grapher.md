@@ -53,3 +53,8 @@ Left-click on the node to which the link will be drawn.
 Your Prompt Window now tells you which link you just added.
 
 <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+You'll notice a straight line from Node ONE to ONE A in your graph window. Add two more links from Node ONE to ONE B and to ONE C.
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
