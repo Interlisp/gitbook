@@ -7,7 +7,7 @@
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
 * [Saving Your Work](saving-your-work.md)
-* [SEdit](sedit.md)
+* [Editing functions with SEdit](editing-functions-with-sedit.md)
 * [Loops and Conditionals](loops-and-conditionals.md)
 * [TEdit](tedit.md)
 * [Debugging](debugging.md)
