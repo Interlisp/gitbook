@@ -74,8 +74,6 @@ Medley has a large collection of iterative statement operators. Check out the IR
 
 Can you put a loop inside a COND statement? Go give it a try!
 
-In the next chapter, we'll talk about control functions. Then, we'll use what we've learnt so far to upgrade the distress call module we built a few chapters back.
-
 
 
 
