@@ -24,3 +24,9 @@ Let's start building our graph by adding and connecting nodes. In the white spac
 
 <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
+Select Add Node, and you'll see a small window appear on top of the graph window with the title Node label?
+
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+This is the label of your node. Type Node ONE for now and press Enter. You'll see a node attached to your cursor. To place the node, left-click on any empty space in the window. Your node will appear with the label you set.
+
