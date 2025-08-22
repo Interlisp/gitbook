@@ -58,3 +58,10 @@ You'll notice a straight line from Node ONE to ONE A in your graph window. Add t
 
 <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
+You can also move and delete nodes. To move a node, select Move Node from the menu. Once the menu disappears, hold down left mouse button on the node you want to move, drag it to a new location and let go.&#x20;
+
+To delete a node, select Delete from the menu and then the node to be deleted.
+
+{% hint style="info" %}
+Your prompt window always displays relevant information to whatever you're trying to do. If you're unsure how to proceed, look at the prompt window for instructions.
+{% endhint %}
