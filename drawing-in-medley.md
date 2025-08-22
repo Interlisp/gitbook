@@ -67,7 +67,7 @@ Try displaying your new artwork in a new window. Refer to previous chapters if y
 
 Till now, we've learnt how to create windows with a predefined size, border and title. But there's a simpler way to make a window:
 
-In an Exec, type: (SETQ my.window (CREATEW)
+In an Exec, type: `(SETQ my.window (CREATEW)`
 
 Your cursor will change. You can now click, drag and create a new window of any size. You can refer to this window just like any other using the name you set, which is my.window for this example.
 
@@ -77,27 +77,27 @@ Windows are displaystreams. A display stream is a simply a place to display. The
 
 There are four primary functions for drawing to a displaystream:
 
-DRAWLINE: (DRAWLINE x1 y1 x2 y2 width operation stream color dashing)
+**DRAWLINE**: `(DRAWLINE x1 y1 x2 y2 width operation stream color dashing)`
 
-Example: (DRAWLINE 10 15 100 150 5 ’INVERT my.window)
+Example: `(DRAWLINE 10 15 100 150 5 ’INVERT my.window)`
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-DRAWTO: (DRAWTO x y width operation stream color dashing)
+**DRAWTO**: `(DRAWTO x y width operation stream color dashing)`
 
-Example: (DRAWTO 120 135 5 ’INVERT my.window)
+Example: `(DRAWTO 120 135 5 ’INVERT my.window)`
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-DRAWCIRCLE: (DRAWCIRCLE centerx centery radius brush dashing stream)
+**DRAWCIRCLE**: `(DRAWCIRCLE centerx centery radius brush dashing stream)`
 
-Example: (DRAWCIRCLE 150 100 30 ’(VERTICAL 5) NIL my.window)
+Example: `(DRAWCIRCLE 150 100 30 ’(VERTICAL 5) NIL my.window)`
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-FILLCIRCLE: (FILLCIRCLE centerx centery radius texture stream)
+**FILLCIRCLE**: `(FILLCIRCLE centerx centery radius texture stream)`
 
-Example: (FILLCIRCLE 200 150 10 GRAYSHADE my.window)
+Example: `(FILLCIRCLE 200 150 10 GRAYSHADE my.window)`
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
