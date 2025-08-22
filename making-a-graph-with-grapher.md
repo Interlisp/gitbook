@@ -10,5 +10,17 @@ We won't go over what all the parameters do in this primer. Instead, let's try m
 
 Start by declaring a variable name. In an Exec, type:
 
+`(SETQ my.graph NIL)`
 
+Now let's create a window which will serve as a graph editor:
+
+`(SHOWGRAPH my.graph "My Graph" NIL NIL NIL T)`
+
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Place your graph on an empty space. If you want to change the size and shape of the window, hold down the right mouse button on the title bar just like you would with any window, place your cursor on the menu item Shape and let go.
+
+Let's start building our graph by adding and connecting nodes. In the white space in the graph editor window, hold down your right mouse button and a different menu will appear with context-relevant options to choose from.
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
