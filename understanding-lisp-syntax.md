@@ -12,7 +12,7 @@ At the heart of LISP, short for List Processing, are, you guessed it, LISTS! Spe
 
 `(1 2 3)`
 
-If you are coming from other languages, you might be used to commas as list separators. Elements in LISP lists are instead separated by a space.&#x20;
+If you are coming from other languages, you might be used to commas as separators for list items. Items in LISP lists are instead separated by a space.&#x20;
 
 {% hint style="info" %}
 This is why when we name things in LISP, we use separators other than space.
