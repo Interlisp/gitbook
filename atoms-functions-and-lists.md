@@ -30,11 +30,11 @@ Make sure you are in an Interlisp Exec. DEFINEQ is specific to Interlisp and won
 
 To clarify:&#x20;
 
-LAMBDA function: `(DEFINEQ (adder (LAMBDA (X  Y) (+ X Y))))`
+LAMBDA: `(DEFINEQ (adder (LAMBDA (X  Y) (+ X Y))))`
 
-* When called `(adder 3 (+ 3 4))` outputs `10`because the LAMBDA function evaluated `(+3 4)` before assigning that value to `Y` . So, the output is X (3) + Y (7) = 10.
+* When called `(adder 3 (+ 3 4))` outputs `10`because the LAMBDA function evaluated `(+ 3 4)` before assigning that value to `Y` . So, the output is X (3) + Y (7) = 10.
 
-NLAMBDA function: `(DEFINEQ (n-adder (NLAMBDA (X Y)(+ X Y))))`
+NLAMBDA: `(DEFINEQ (n-adder (NLAMBDA (X Y)(+ X Y))))`
 
 * When called `(n-adder 3 (+ 3 4))` outputs `(+ 3 4) is not a NUMBER` because it expects `Y` to be  a number that `+`can add to `X` (3) but instead encounters an expression which it has been told not to evaluate by NLAMBDA.
 
