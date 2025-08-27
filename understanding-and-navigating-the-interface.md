@@ -46,12 +46,12 @@ Because Medley Interlisp is a 30-year-old system, navigating the interface is sl
 
 To select a menu item: Press and hold the right mouse button, move the pointer over the item you want, and then release the right button. The highlighted item will be selected.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 To expand a menu item: If the item has a gray arrow, sliding the pointer over it will open a submenu; again, release the right button when the item you want is highlighted. You can technically switch which mouse button is held down while navigating, as long as one button stays pressed, but this is rarely necessary.
 
-When you right-click on a window instead of an empty area, a slightly different menu appears. This is the context menu for that window. You can use this to close, resize, clear, or shrink the window!
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+We can also create our own menus and repurpose them for different tasks. You'll learn more about this moving forward!
 
 [^1]: correct later
