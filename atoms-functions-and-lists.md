@@ -50,14 +50,21 @@ Lists are ordered groups of atoms enclosed in parentheses. They are fundamental 
 
 One of LISP's special powers is homoiconicity, the ability to treat both code and data as data (inside lists). Programming languages let us automate changing our data. In LISP, we can treat our logic as data and automate its modification as well. Cool!
 
-CONS is the primary list construction function. (CONS X Y) creates a list with elements X and Y.
+`CONS` is the primary function for constructing pairs in LISP. Each pair, called a **cons cell**, contains exactly two parts:
 
-What goes on after CONS is worth understanding. Every CONS cell has two elements: the first element is CAR and the second element is CDR. Every list in LISP has two elements. But the CDR of the list can contain other CONS lists.&#x20;
+* The **CAR**, which holds the first element
+* The **CDR**, which holds the second element
 
-A list ends only when the CDR of a list is NIL. So, when we write:
+These are historical terms that have persisted from the early days of LISP. To make them easier to read, Common Lisp also defines `FIRST` as an alias for `CAR` and `REST` as an alias for `CDR`.
 
-* `(CONS 1 2)`, LISP reads: `(CONS 1 (CONS 2 NIL))`.
-* `(LIST 1 2 3 4 5)`, LISP reads: `(CONS 1 (CONS 2 (CONS 3 (CONS 4 (CONS 5 NIL)))))`.
+Every list in LISP is made from cons cells linked together. A single cons cell can hold atoms or other cons cells in either its CAR or CDR. Lists end when a CDR is `NIL`.
+
+For example:
+
+* `(CONS 1 2)` produces the dotted pair `(1 . 2)`. Here `1` is the CAR and `2` is the CDR.
+* `(LIST 1 2 3)` produces `(1 2 3)`, which is shorthand for `(CONS 1 (CONS 2 (CONS 3 NIL)))`. Each cons cell links one element to the rest of the list.
+
+In other words, `LIST` is just a convenient way to build a chain of cons cells.
 
 {% hint style="info" %}
 To wrap your head around the relationship between atoms, lists, and functions, consider this: We can build functions by combining atoms into a list. Our function can be given a name. This name, a symbol, can be used as an atom alongside other atoms in a new list.
