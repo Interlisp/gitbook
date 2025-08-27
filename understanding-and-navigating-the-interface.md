@@ -22,6 +22,14 @@ The prompt window at the top-left part of the screen (on top of the starting Exe
 
 <figure><img src=".gitbook/assets/Prompt Window.png" alt=""><figcaption></figcaption></figure>
 
+#### Top bar:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+This bar displays a bunch of important system information we can gloss over for now. If you left-click on Rdtbl, you'll see a menu appear with options for how Medley should read our syntax. Interlisp, the default readtable, is case-sensitive (so FUNCTION-NAME and function-name are not the same functions).&#x20;
+
+Sometimes, Medley's error-checking module will interpret the right case even if you make a mistake or ask you for confirmation. But if you want a smoother typing experience without having to worry about case, you could switch to the XCL Rdtbl which treats upper and lower case letters as the same.
+
 #### Help and Optional Features:
 
 On your right is a section titled Documentation. It's a list of web links to helpful resources to aid you during your time with Medley Interlisp. As a beginner, the PRIMER is a good place to start. BASICS will take you to the Medley Interlisp Project website's Documentation page. Take your time to browse around because chances are the team behind the project has already answered some of the more common questions and curiosities. MANUAL leads to the Interlisp Reference Manual (IRM). Refer to the IRM when you want to know more about certain aspects of Interlisp and when you're ready to move beyond the primer. We'll learn about Notecards and Rooms in later chapters.
