@@ -38,7 +38,7 @@ NLAMBDA function: `(DEFINEQ (n-adder (NLAMBDA (X Y)(+ X Y))))`
 
 We don't necessarily have to include arguments. We could write: `(DEFINEQ (seven (LAMBDA NIL (+ 3 4))))` which just outputs `7`. `(+ 3 4)` is the form of the argument.
 
-Functions help us organize our code and save us the trouble of repeating ourselves. Think of them as an easy way to ask the computer to complete a complex task. Rather than describing the task every time, we describe it once and call it by its name when needed. A good practice is to make function names simple but descriptive.&#x20;
+You probably already know what functions are if you're coming from another programming language. Functions help us organize our code and save us the trouble of repeating ourselves. Think of them as an easy way to ask the computer to complete a complex task. Rather than describing the task every time, we describe it once and call it by its name when needed. A good practice is to make function names simple but descriptive.&#x20;
 
 {% hint style="info" %}
 Refer to the [Interlisp Reference Manual's](https://interlisp.org/documentation/IRM.pdf) FUNCTION DEFINITION, MANIPULATION AND EVALUATION chapter to learn more about functions!
