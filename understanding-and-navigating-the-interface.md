@@ -8,7 +8,7 @@ The Executive Window or Exec on the left is the primary window where we can writ
 
 You can create more executive windows in your LISP flavor of choice through the EXEC menu item. Keep on reading to learn more about menus. Yes, you can have multiple executive windows present at the same time.
 
-When you start Medley, the default executive window prints some system information (which you can ignore) followed by the flavor. A blinking caret in the form of an up arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now!).
+When you start Medley, the default executive window prints some system information (which you can ignore) followed by the flavor. A blinking caret/indicator shaped like the head of an upward pointing arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now!).
 
 <figure><img src=".gitbook/assets/EXEC (INTERLISP).png" alt=""><figcaption></figcaption></figure>
 
