@@ -6,7 +6,7 @@ description: >-
 
 # Understanding LISP Syntax
 
-**Endless Brackets**
+**Endless Parentheses**
 
 At the heart of LISP, short for List Processing, are, you guessed it, LISTS! Specifically, lists that start with a left parentheses and close with a right parentheses.&#x20;
 
