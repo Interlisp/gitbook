@@ -40,7 +40,7 @@ NLAMBDA: `(DEFINEQ (n-adder (NLAMBDA (X Y)(+ X Y))))`
 
 (3) Forms that lay out the logic the function should execute. Think of forms as logic encapsulated as lists that uses the arguments passed.
 
-We don't necessarily have to include arguments. We could write: `(DEFINEQ (seven (LAMBDA NIL (+ 3 4))))` which just outputs `7`. `(+ 3 4)` is the form of the argument.
+`(DEFINEQ (seven (LAMBDA NIL (+ 3 4))))`  outputs `7`. The expression `(+ 3 4)` is the last form in the function body.
 
 You probably already know what functions are if you're coming from another programming language. Functions help us organize our code and save us the trouble of repeating ourselves. Think of them as an easy way to ask the computer to complete a complex task. Rather than describing the task every time, we describe it once and call it by its name when needed. A good practice is to make function names simple but descriptive.&#x20;
 
