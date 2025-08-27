@@ -1,12 +1,12 @@
 # Atoms, Functions and Lists
 
-#### Atoms
+#### Atoms and S-Expressions
 
-The smallest parts of our code are called atoms. We use them as building blocks for larger tasks. They can be identifiers, symbols, and data. Some atoms are built into the language and help with common tasks, like + for addition. Others are defined by the programmer, like the names of variables or functions.
+The smallest parts of LISP code are called atoms. An atom can be a number, a symbol, or a name that identifies a function or variable. Some atoms are built into the language, like `+` for addition, while others are defined by the programmer, like variable names or custom function names.
 
-As we continue, we’ll learn how to combine basic atoms to create more complex logic and programs.&#x20;
+Everything in LISP, whether an atom or a collection of atoms, is represented as a symbolic expression, or s-expression. Atoms are s-expressions by themselves, while lists are s-expressions that contain other s-expressions, written with parentheses: `(A B C)` is a list containing three s-expressions.
 
-Note: Don't confuse atoms with operators and syntax elements, which are structural tools that tell the computer how to read our code. In contrast, atoms are the smallest pieces of code in relation to the task at hand. _Understanding LISP Syntax_ can tell you more about LISP's syntactic choices.
+By combining atoms into lists and other s-expressions, we can build more complex logic and programs.
 
 #### Functions
 
