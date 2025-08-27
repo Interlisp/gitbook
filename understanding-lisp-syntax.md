@@ -24,7 +24,7 @@ A list in LISP  can contain different types of elements from strings, numbers, v
 
 `(1 "Medley" (3 5 "Interlisp"))`
 
-The above example is a list with three elements: 1, Medley and (3 5 "Interlisp"). The third element is a nested list. Get ready to see a lot of them throughout this Primer!
+The above example is a list with three elements: the number 1, the string Medley and the list (3 5 "Interlisp").
 
 Lists are a powerful data structure for representing homogenous and hierarchical data. While other programming languages have several levels of abstraction to "assist" you in building data structures in various ways, it also results in you having to type a lot of syntactic scaffolding to get to what you need.&#x20;
 
