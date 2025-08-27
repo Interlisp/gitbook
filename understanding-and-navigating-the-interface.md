@@ -28,13 +28,15 @@ On your right is a section titled Documentation. It's a list of web links to hel
 
 Menus:
 
-To open a menu, _hold_ right-click on any empty space on the screen. The following menu should appear. Because Medley Interlisp is a 30-year-old system, navigating the interface is slightly different than the modern computers we are used to. But fear not; your mouse and keyboard are all you need!&#x20;
+To open the background menu, hold down the right mouse button on any empty space on the screen. The following menu should appear. Because Medley Interlisp is a 30-year-old system, navigating the interface is slightly different than the modern computers we are used to. But fear not; your mouse and keyboard are all you need!&#x20;
 
-To select or click a menu item: While holding the right-click, move your cursor to the option you want to select and let go of the right-click. The menu will disappear, but the system already knows the window you want to call, so left-click again and drag to create the window for the option you selected.
-
-To expand a menu item: While holding right-click, with the cursor on the item you want to expand, hold left-click and slide right- the expanded menu should appear! You can let go the left mouse button once the expanded menu appears, but keep the right button pressed and select any one of the new options just like any other menu item.&#x20;
+To select a menu item: Press and hold the right mouse button, move the pointer over the item you want, and then release the right button. The highlighted item will be selected.&#x20;
 
 <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+To expand a menu item: If the item has a gray arrow, sliding the pointer over it will open a submenu; again, release the right button when the item you want is highlighted. You can technically switch which mouse button is held down while navigating, as long as one button stays pressed, but this is rarely necessary.
+
+
 
 When you right-click on a window instead of an empty area, a slightly different menu appears. This is the context menu for that window. You can use this to close, resize, clear, or shrink the window!
 
