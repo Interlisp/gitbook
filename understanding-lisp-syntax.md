@@ -6,7 +6,7 @@ description: >-
 
 # Understanding LISP Syntax
 
-**Endless Parentheses**
+#### **Endless Parentheses**
 
 At the heart of LISP, short for List Processing, are, you guessed it, LISTS! Specifically, lists that start with a left parentheses and close with a right parentheses.&#x20;
 
@@ -30,7 +30,7 @@ Lists are a powerful data structure for representing homogenous and hierarchical
 
 LISP, however, is fast and simple. Everything we do in LISP is a tree of lists or lists within lists within lists...`(you (get (the idea)))`. It's easy for us to read, understand and write and it's easier for the computer to parse what we write into a tree of meaningful interdependent logic.
 
-**REPL**
+#### **REPL**
 
 The REPL, short for READ-EVAL-PRINT-LOOP, is a fundamental part of understanding LISP. Every piece of code you write first goes through the Reader and then the Evaluator. The Reader translates the characters you type into LISP objects, called symbolic expressions or s-expressions.
 
@@ -44,7 +44,7 @@ The LISP evaluator processes s-expressions to produce a result. After the reader
 
 The REPL is a mother listener, of sorts. In LISP, the REPL is always on-ready to read -> evaluate -> print and repeat.
 
-**Comments**
+#### **Comments**
 
 We can add a comment in LISP, using a semicolon. In a later chapter, we'll learn to use the powerful structure editor or SEdit in Medley, where we can add comments as documentation for our LISP objects.&#x20;
 
@@ -52,20 +52,19 @@ Three levels of comments are supported in Medley. According to the Interlisp Ref
 
 > Single-semicolon comments are formatted at the comment column, about three-quarters of the way across the window. Doublesemicolon comments are formatted at the current indentation of the code they are in. Triple semicolon comments are formatted against the left margin. The level of a comment can be increased or decreased by pointing after the semicolon, and either typing another semicolon, or backspacing over the preceding semicolon.
 
-**Single Quote**
+#### **Single Quote ( ' )**
 
-Some s-expressions are self-evaluating. Such as numbers and strings (delimited by " "). Meaning, we don't need to explicitly tell LISP to process them as data. All other elements in our lists, however, need an explicit flag to communicate to LISP "read what comes right after as raw data and don't evaluate it)".
+Some s-expressions are self-evaluating, meaning they represent their own value directly. Numbers and strings are great examples; when you type `42` or `"hello"` into the Lisp REPL, the evaluator simply returns that exact value.
 
-`quote` or `'` tells LISP not to evaluate what follows.
+However, most other s-expressions are not self-evaluating. The Lisp evaluator tries to interpret them as code, typically a function call. To prevent this from happening and tell Lisp to treat the expression as literal data, you use the special form `quote`.
 
-Try: `'(+ 1 2)`  and `(+ 1 2)`  in the Exec window.
+The single quote symbol (`'`) is a reader macro, a convenience that's processed _before_ evaluation. It's a shorthand that the Lisp reader automatically translates into the `quote` special form. For example, `'expr` is simply a more convenient way of writing `(quote expr)`.
 
-`'(+ 1 2)` prints `(+ 1 2)`. LISP did not evaluate the expression and printed an exact copy.
+The special form `quote` is handled directly by the evaluator. Unlike a regular function that evaluates its arguments, `quote` prevents its single argument from being evaluated and returns it as is. This is crucial for treating code as data. Let's look at the difference with an example:
 
-`(+ 1 2)` prints `3`. LISP evaluates this expression as intended.
+* `'(+ 1 2)`: The single quote stops the evaluator from processing `+` as a function. Instead, it treats the expression `(+ 1 2)` as a list of symbols and numbers, returning it as-is. The reader macro `'` expanded this into `(quote (+ 1 2))` for the evaluator.
+* `(+ 1 2)`: Without the quote, the evaluator processes `+` as a function and `1` and `2` as its arguments, and returns the result, `3`.
 
-This is a powerful feature of LISP, we'll explore later. `quote` gives us the ability to treat our functions as data!
-
-
+This ability to treat code as data is one of the most powerful and fundamental features of Lisp. It allows you to write programs that can dynamically generate and manipulate other code.
 
 \
