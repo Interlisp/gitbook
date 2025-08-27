@@ -28,7 +28,7 @@ The above example is a list with three elements: the number 1, the string Medley
 
 Lists are a powerful data structure for representing homogenous and hierarchical data. While other programming languages have several levels of abstraction to "assist" you in building data structures in various ways, it also results in you having to type a lot of syntactic scaffolding to get to what you need.&#x20;
 
-LISP, however, is fast and simple. Everything we do in LISP is a tree of lists or lists within lists within lists...`(you (get (the idea)))`. It's easy for us to read, understand and write and it's easier for the computer to parse what we write into a tree of meaningful interdependent logic.
+LISP, however, is fast and simple. Everything we do in LISP is a tree of lists or lists within lists within lists...`(you (get (the idea)))`. It's easy for us to read, understand and write and it's easier for the computer to parse what we write into a structure of meaningful interdependent logic.
 
 #### **REPL**
 
