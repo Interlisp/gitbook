@@ -32,11 +32,17 @@ LISP, however, is fast and simple. Everything we do in LISP is a tree of lists o
 
 **REPL**
 
-The REPL or READ-EVAL-PRINT-LOOP is a fundamental step in understanding LISP. The LISP code we write must pass through a Reader and a Evaluator. The Reader is responsible for translating strings of characters that make up our code into LISP objects. These objects are called symbolic expressions or s-expressions. S-expressions are made out of lists and atoms. We'll talk more about them in the next chapter.&#x20;
+The REPL, short for READ-EVAL-PRINT-LOOP, is a fundamental part of understanding LISP. Every piece of code you write first goes through the Reader and then the Evaluator. The Reader translates the characters you type into LISP objects, called symbolic expressions or s-expressions.
 
-Once the LISP environment stores our code as valid s-expressions, the Evaluator can move in to evaluate atoms that make up our s-expressions _in the right order_.
+On the surface, s-expressions are written with parentheses, such as `(A B C)`, or with dot notation, such as `(A . B)`. Both are just ways of writing lists and pairs so that the Reader can understand them.
 
-Once evaluated, the results are ready to print. The REPL is a mother listener, of sorts. In LISP, the REPL is always on-ready to read -> evaluate -> print and repeat.
+Every LISP list is actually made from pairs. A pair is created by a cons cell, which holds two values: a CAR (the first element) and a CDR (the rest). Lists are a special kind of pair chain where the last CDR is NIL.
+
+For example, the list `(A B C)` is just shorthand for the dotted form `(A . (B . (C . NIL)))`. In other words, the parentheses version is a more convenient way to write a chain of pairs. The dotted form shows the underlying structure explicitly: each cons cell links an element to the rest of the list. We'll talk more about them in the next chapter.&#x20;
+
+The LISP evaluator processes s-expressions to produce a result. After the reader translates your code into valid s-expressions, the evaluator steps in to interpret them. It determines the correct order of operations, applies functions to arguments, and resolves variable names to their values. The final result is then passed to the printer to be displayed.
+
+The REPL is a mother listener, of sorts. In LISP, the REPL is always on-ready to read -> evaluate -> print and repeat.
 
 **Comments**
 
