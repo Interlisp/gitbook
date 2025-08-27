@@ -1,6 +1,8 @@
 # Understanding and Navigating the Interface
 
-Right after you start Medley, [assuming you've used -a flag to load the full version](#user-content-fn-1)[^1], you should see five four distinct sections making up the interface on your screen.&#x20;
+After you start Medley, you should see five distinct sections making up the interface on your screen: the prompt window and the executive window on the left, a bar displaying system information at the top, and, the Medley Interlisp logo and a Documentation and Optional Features section on the right.&#x20;
+
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 #### The Executive Window
 
@@ -16,7 +18,7 @@ When you start Medley, the default executive window prints some system informati
 
 #### Prompt Window:
 
-The prompt window at the top-left part of the screen (on top of the starting Exec) is a dedicated area for displaying system prompts and messages. We can print our own text here as well.
+The prompt window at the top-left part of the screen (on top of the starting Exec) is a dedicated area for displaying system prompts and messages. We can print our own text here as well. The prompt window displays useful information about your current task and will ask you for the next step.
 
 <figure><img src=".gitbook/assets/Prompt Window.png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +28,7 @@ On your right is a section titled Documentation. It's a list of web links to hel
 
 <figure><img src=".gitbook/assets/DOCUMENTATION.png" alt=""><figcaption></figcaption></figure>
 
-Menus:
+#### Menus:
 
 You can open different menus depending on context.\
 \
@@ -53,5 +55,3 @@ To expand a menu item: If the item has a gray arrow, sliding the pointer over it
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 We can also create our own menus and repurpose them for different tasks. You'll learn more about this moving forward!
-
-[^1]: correct later
