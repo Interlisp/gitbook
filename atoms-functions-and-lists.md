@@ -50,7 +50,7 @@ Refer to the [Interlisp Reference Manual's](https://interlisp.org/documentation/
 
 #### Lists
 
-Lists are ordered groups of atoms enclosed in parentheses. They are fundamental to LISP, as you might have guessed, since LISP is an abbreviation for List Processing. They are how we do things rather than what we do. Lists can contain instructions, data, and other lists.&#x20;
+A list in LISP is an ordered collection of s-expressions enclosed in parentheses. Lists are fundamental to LISP because the name itself stands for List Processing. A list can contain atoms, such as numbers or symbols, and other s-expressions. Lists allow LISP to represent sequences of operations, arguments for functions, or structured data. By combining atoms and lists in this way, we can build expressions of any complexity.
 
 One of LISP's special powers is homoiconicity, the ability to treat both code and data as data (inside lists). Programming languages let us automate changing our data. In LISP, we can treat our logic as data and automate its modification as well. Cool!
 
