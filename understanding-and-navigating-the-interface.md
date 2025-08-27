@@ -4,7 +4,7 @@ Right after you start Medley, [assuming you've used -a flag to load the full ver
 
 #### The Executive Window
 
-The Executive Window or Exec on the left is the primary window where we can write programs and write code to run other features of Medley Interlisp. There are two flavors of the executive window: Interlisp and Common Lisp (this information is mentioned right beside "Exec" in the title bar and  Line 2).&#x20;
+The Executive Window or Exec on the left is the primary window where we can write programs and write code to run other features of Medley Interlisp. There are two flavors of the executive window: Interlisp and Common Lisp. The type you're using is displayed in the title bar of the executive window.&#x20;
 
 You can create more executive windows in your LISP flavor of choice through the EXEC menu item. Keep on reading to learn more about menus. Yes, you can have multiple executive windows present at the same time.
 
