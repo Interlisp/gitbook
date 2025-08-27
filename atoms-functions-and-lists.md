@@ -18,7 +18,7 @@ In Interlisp, we can define a function with `DEFINEQ` .&#x20;
 
 `(DEFINEQ (function-name (LAMBDA (X Y) (PRINT X) (PRINT Y))))` defines a function called function-name with the arguments `X` and `Y` and the "forms" `(PRINT X)` and `(PRINT Y)`.&#x20;
 
-We call functions by enclosing them in parentheses: `(function-name)` . There are times when we have to explicitly write `(FUNCTION function-name)`. We'll discuss that in later chapters.
+We call functions by enclosing them in parentheses: `(function-name X Y)`.
 
 {% hint style="info" %}
 Make sure you are in an Interlisp Exec. DEFINEQ is specific to Interlisp and won't work for Common Lisp.
