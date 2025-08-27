@@ -14,11 +14,15 @@ Functions are reusable tasks broken down into steps for computers to understand.
 
 (1) A name so we can call it. Calling a function tells the computer to start the task.&#x20;
 
-We can define a function with `DEFINEQ` .&#x20;
+In Interlisp, we can define a function with `DEFINEQ` .&#x20;
 
 `(DEFINEQ (function-name (LAMBDA (X Y) (PRINT X) (PRINT Y))))` defines a function called function-name with the arguments `X` and `Y` and the "forms" `(PRINT X)` and `(PRINT Y)`.&#x20;
 
 We call functions by enclosing them in parentheses: `(function-name)` . There are times when we have to explicitly write `(FUNCTION function-name)`. We'll discuss that in later chapters.
+
+{% hint style="info" %}
+Make sure you are in an Interlisp Exec. DEFINEQ is specific to Interlisp and won't work for Common Lisp.
+{% endhint %}
 
 (2) A set of directions telling the computer how to perform the task.&#x20;
 
