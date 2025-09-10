@@ -48,7 +48,7 @@ Medley is now aware of a new region named `window-region`. We can use this regio
 
 This creates a new variable `display-window` which when called will create a new window at the region `window-region`.
 
-3. We can open or close this window with `(OPENW display-window)` and `(CLOSEW display-window)`.at
+3. We can open or close this window with `(OPENW display-window)` and `(CLOSEW display-window)`.
 
 {% hint style="info" %}
 We don't write variable names inside " " because they are not static strings to store but data containers that Medley can open.
