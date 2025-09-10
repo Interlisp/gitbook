@@ -8,7 +8,7 @@ Medley's File Manager subsystem is content-aware. It can do more than just save 
 
 
     <figure><img src=".gitbook/assets/SAVE ADDER FILE.png" alt="" width="425"><figcaption></figcaption></figure>
-2.  `(MAKEFILES 'filename)`: Writes the changes made to a file in storage. You can now find the file in your storage path.\
+2.  `(MAKEFILES 'filename)`: Writes and saves the changes made to a file in storage. You can now find the file in your storage path.\
 
 
     <figure><img src=".gitbook/assets/MAKEFILE ADDER FUNCTION.png" alt="" width="433"><figcaption></figcaption></figure>
