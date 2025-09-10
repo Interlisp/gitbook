@@ -16,7 +16,7 @@ In this chapter, we'll learn to do the following things in Medley:
 
 Medley has predefined formats to follow when you want to create objects like windows and menus.&#x20;
 
-To create a window, we follow the format: `(CREATEW REGION TITLE BORDERSIZE)`. In the Exec, type: `(CREATEW NIL "DISPLAY MODULE" 10)`. You can now click and drag to create a new window with the title DISPLAY MODULE and a border size of 10.&#x20;
+To create a window, we follow the format: `(CREATEW REGION TITLE BORDERSIZE)`. In the Interlisp Exec, type: `(CREATEW NIL "DISPLAY MODULE" 10)`. You can now click and drag to create a new window with the title DISPLAY MODULE and a border size of 10.&#x20;
 
 `REGION` lets us define the position at which the window will appear and its size. When `NIL`, we can define the region dynamically (by clicking and dragging) like we just did.&#x20;
 
