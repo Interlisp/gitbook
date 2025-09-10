@@ -2,7 +2,7 @@
 
 Medley's File Manager subsystem is content-aware. It can do more than just save files. As we define and change functions, variables, and data structures, the File Manager keeps track of what we have stored in temporary session memory and what has already been written and not written to a file in permanent, external storage. Modern file managers use separate, dedicated programs to process the content of a file. In contrast, when we load a file in Medley, it parses all the text in the file as Lisp objects and data structures that are ready in memory for the system to use. Consider Medley's File Manager a smart, live memory monitor of sorts.
 
-#### For saving and loading our work, essential functions and commands(to be typed in the Exec) are:&#x20;
+#### For saving and loading our work, essential functions and commands (to be typed in the Exec) are:&#x20;
 
 1.  `(FILES?)`: Gives a list of objects we created and changed that can be "dumped"/written to a file, and asks for directions. This does not update the actual file in storage- it logs what needs to be saved eventually. \
 
