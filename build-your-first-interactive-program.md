@@ -20,7 +20,7 @@ To create a window, we follow the format: `(CREATEW REGION TITLE BORDERSIZE)`. I
 
 `REGION` lets us define the position at which the window will appear and its size. When `NIL`, we can define the region dynamically (by clicking and dragging) like we just did.&#x20;
 
-Predefined regions are useful when we want to create multiple windows of the same type and size. To create a region, we follow the format: `(CREATEREGION LEFT BOTTOM W H)` . LEFT and BOTTOM refer to the pixel distance from the left and bottom edge of the screen where the window should spawn. W and H are the width and height of the window. In the Exec, type:&#x20;
+Predefined regions are useful when we want to create multiple windows of the same type and size. To create a region, we follow the format: `(CREATEREGION LEFT BOTTOM W H)` . LEFT and BOTTOM refer to the pixel distance of the region we're defining from the left and bottom edge of the screen. W and H are the width and height of the window. In the Exec, type:&#x20;
 
 `(CREATEW (CREATEREGION 500 500 300 200) "DISPLAY MODULE" 10)`&#x20;
 
