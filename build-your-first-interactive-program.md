@@ -24,7 +24,9 @@ Predefined regions are useful when we want to create multiple windows of the sam
 
 `(CREATEW (CREATEREGION 500 500 300 200) "DISPLAY MODULE" 10)`&#x20;
 
-Do you see your window? Play around with the values to get a feel of the pixel density! Can you create windows with no titles and no borders? Can you make windows shaped like buttons?
+Do you see your window? Play around with the values to get a feel of the pixel density!&#x20;
+
+Try to create a window with no title and border. Can you make one that looks like a button?
 
 {% hint style="info" %}
 Regardless of the region set, we can always change the position, shape and size of our existing windows dynamically through its right-click context menu.
