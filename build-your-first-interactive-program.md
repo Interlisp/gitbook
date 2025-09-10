@@ -109,7 +109,13 @@ Now, that we have a list named `distress-calls` , we can set up a function calle
 
 We can define a new function with `DEFINEQ` . In your Exec, type:
 
-`(DEFINEQ (nav-sys (LAMBDA (X) (PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) display-window))))`
+{% code title="" overflow="wrap" lineNumbers="true" %}
+```lisp
+(DEFINEQ (nav-sys (LAMBDA (X) 
+(PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
+display-window))))
+```
+{% endcode %}
 
 Let's break down our function:
 
