@@ -38,6 +38,10 @@ Options like Page Layout, Char looks, and Para looks will open their respective 
 
 <figure><img src=".gitbook/assets/tedit text centered exmenu.png" alt=""><figcaption></figcaption></figure>
 
-While the expanded menu is one way to have a powerful suite of editing tools always available, you can also use the simpler but more accessible TEdit Buttons through the native menu.
+#### Saving TEdit Files
+
+We can save our text in either plain text format or as a PDF. Hold down the right mouse button on top of the black title bar. Expand the menu item Hardcopy and select File.
+
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ...
