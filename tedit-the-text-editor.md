@@ -30,7 +30,7 @@ To remove all formatting, use the Defaults button.
 
 <figure><img src=".gitbook/assets/tedit font changes.png" alt=""><figcaption></figcaption></figure>
 
-We can access more functions through the Expanded Menu. Click on it, and a new panel titled TEdit Menu should appear permanently above your TEdit window.
+We can access more functions through the Expanded Menu. Select it by hovering over it in the menu and letting go of the mouse button. A new panel titled TEdit Menu should appear above your TEdit window.
 
 <figure><img src=".gitbook/assets/tedit ex menu.png" alt=""><figcaption></figcaption></figure>
 
