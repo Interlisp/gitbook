@@ -44,4 +44,3 @@ We can save our text in either plain text format or as a PDF. Hold down the righ
 
 <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-...
