@@ -38,11 +38,11 @@ Add three more nodes with the labels One A, One B and One C respectively.
 
 Let's link these nodes. Bring up the main menu for the graph window and select Add Link.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you select Add Link by placing the mouse cursor on top of it and letting go, you'll notice your Prompt Window is asking From?
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Left-click on the node from which the link will be drawn.
 

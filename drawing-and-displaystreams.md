@@ -19,7 +19,7 @@ and then:
 Your cursor will now display the outline of the window you created. Your Prompt Window displays: _Indicate the position for the Bitmap Edit Window_. Left-click on an empty space in your workspace to place your bitmap editor.\
 
 
-<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To draw, hold down on your left mouse button and to erase hold down your middle mouse button.
 
@@ -71,7 +71,7 @@ In an Exec, type: `(SETQ my.window (CREATEW)`
 
 Your cursor will change. You can now click, drag and create a new window of any size. You can refer to this window just like any other using the name you set, which is my.window for this example.
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Windows are displaystreams. A display stream is a simply a place to display. They determine what is displayed and where. We've learnt to draw with a dedicated bitmap editor but did you know we can also draw on a disaplystream- a window with code?
 
@@ -81,7 +81,7 @@ There are four primary functions for drawing to a displaystream:
 
 Example: `(DRAWLINE 10 15 100 150 5 ’INVERT my.window)`
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **DRAWTO**: `(DRAWTO x y width operation stream color dashing)`
 
@@ -99,5 +99,5 @@ Example: `(DRAWCIRCLE 150 100 30 ’(VERTICAL 5) NIL my.window)`
 
 Example: `(FILLCIRCLE 200 150 10 GRAYSHADE my.window)`
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 

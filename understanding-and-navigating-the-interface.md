@@ -24,7 +24,7 @@ The prompt window at the top-left part of the screen (on top of the starting Exe
 
 #### Top bar:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 This bar displays a bunch of important system information we can gloss over for now. If you left-click on Rdtbl, you'll see a menu appear with options for how Medley should read our syntax. Interlisp, the default readtable, is case-sensitive (so FUNCTION-NAME and function-name are not the same functions).&#x20;
 

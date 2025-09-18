@@ -2,7 +2,7 @@
 
 TEDIT is Medley's native text editor. You can use it to create and edit text files. Several formatting options to change the appearance of the text and the page, including features like inserting images, are available.
 
-To open TEDIT, hold down right mouse button in an empty area on the screen and select TEDIT from the menu that appears.
+To open TEDIT, hold down the right mouse button in an empty area on the screen and select TEDIT from the menu that appears.
 
 <figure><img src=".gitbook/assets/TEDIT open.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,9 +49,25 @@ Hold down the right mouse button on top of the black title bar. Expand the menu 
 
 The following window will appear, asking for a file name:
 
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Type your file name and an extension Medley recognizes, which in this case is .pdf.
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+To save a text file:
+
+Hold down the middle mouse button on top of the black title bar. Expand the menu option Put and select Plain-Text.
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Type your file name and an extension Medley recognizes, which in this case is .pdf\
-
+You'll see a prompt appear above the title bar, asking for the path to save the file.&#x20;
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+We can get away with writing just our file name and extension. Medley will assume a default file path.
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
