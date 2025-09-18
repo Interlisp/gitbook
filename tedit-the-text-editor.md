@@ -40,7 +40,18 @@ Options like Page Layout, Char looks, and Para looks will open their respective 
 
 #### Saving TEdit Files
 
-We can save our text in either plain text format or as a PDF. Hold down the right mouse button on top of the black title bar. Expand the menu item Hardcopy and select File.
+We can save our text in either plain text format or as a PDF.&#x20;
+
+To save a PDF:\
+Hold down the right mouse button on top of the black title bar. Expand the menu item Hardcopy and select File.
 
 <figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
+The following window will appear, asking for a file name:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Type your file name and an extension Medley recognizes, which in this case is .pdf\
+
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
