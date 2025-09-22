@@ -40,7 +40,7 @@ Options like Page Layout, Char looks, and Para looks will open their respective 
 
 <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-The expanded menu gives us a lot of options to change the look and layout of our text and the page. All menu items in these menus (except APPLY, SHOW and NEUTRAL) have three states:
+The expanded menu gives us a lot of options to change the look and layout of our text and the page. Except APPLY, SHOW and NEUTRAL, in the persistent menu some menu items have three states (On, Off, Neutral) and some have two states (On and Neutral):
 
 {% hint style="info" %}
 These three states can either be applied or removed from your selected text or to your page. Remember, you can select a piece of text by using the left mouse button for selecting letters, the middle mouse button for selecting words and holding down and dragging the right mouse button over larger chunks of text like sentences and paragraphs.&#x20;
@@ -75,6 +75,10 @@ This shows which options have been applied and turned off for the selected text.
 NEUTRAL:
 
 This returns all active and selected menu items to neutral. It's the default state of the persistent menus.
+
+{% hint style="info" %}
+Two-state menu items like the fonts cannot be turned off. We simply switch to a different option than the currently active one and apply it.
+{% endhint %}
 
 #### Saving TEdit Files
 
