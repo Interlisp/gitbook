@@ -101,15 +101,32 @@ To save a text file:
 
 Hold down the middle mouse button on top of the black title bar. Expand the menu option Put and select Plain-Text.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 You'll see a prompt appear above the title bar, asking for the path to save the file.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can get away with writing just our file name and extension. Medley will assume a default file path.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+#### Importing a file into TEdit:
+
+From TEdit's context menu, we can expand Get and select Unformatted Get.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Just like Put, we'll be prompted for a file path, which for the online version of Medley can just be the file name.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+The file we saved earlier: plain-text.txt has now been imported to TEdit for us to edit.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+We can only import text files into TEdit. PDF imports won't be imported as intended.
+{% endhint %}
