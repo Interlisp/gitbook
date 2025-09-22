@@ -38,7 +38,31 @@ We can access more functions through the Expanded Menu. These menus are persiste
 
 Options like Page Layout, Char looks, and Para looks will open their respective menus on top of the expanded menu.
 
-<figure><img src=".gitbook/assets/tedit text centered exmenu.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+The expanded menu gives us a lot of options to change the look and layout of our text and the page. All menu items in these menus (except APPLY, SHOW and NEUTRAL) have three states:
+
+{% hint style="info" %}
+These three states can either be applied or removed from your selected text or to your page. Remember, you can select a piece of text by using the left mouse button for selecting letters, the middle mouse button for selecting words and holding down and dragging the right mouse button over larger chunks of text like sentences and paragraphs.&#x20;
+{% endhint %}
+
+On:
+
+A left-click selects and turns on a menu item in the persistent menus. This change is now ready to be applied to the selected text.
+
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+Off:
+
+Another left-click shows a oblique line across the option indicating that the option is now off. The change is now ready to be removed from the selected text.
+
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+Neutral:
+
+Another left-click removes either the on or off state and returns the option to a neutral state, indicating that this change is no longer in effect.&#x20;
+
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 #### Saving TEdit Files
 
