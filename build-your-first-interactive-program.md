@@ -63,7 +63,13 @@ Menu creations follow the format:&#x20;
 `(CREATE MENU TITLE ← "NAME" ITEMS ← '(ITEM1 ITEM2 ITEM3))`
 
 {% hint style="info" %}
-You can insert the left arrow in Medley by typing the underscore symbol. If you need a combination of keys for underscore, they should produce a left arrow in Medley.
+You can insert the left arrow in Medley by typing the underscore symbol. If you need a combination of keys for underscore, they should produce a left arrow in Medley.\
+\
+The left arrow indicates the initial or the default value (on the right) for the field on the left. The field TITLE is initialized with the value NAME and the field ITEMS is initialized with a list of three.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+We use `QUOTE` or `'` before a list like `(ITEM1 ITEM2 ITEM3)` because, in Lisp, the first element of a list is normally treated as a function or operator to be evaluated (e.g., `CREATE`, `SETQ`, `+`). By quoting the list using `'(ITEM1 ITEM2 ITEM3)`we tell Lisp to treat it as literal data, not executable code. This prevents Lisp from trying to call `ITEM1` as a function and instead preserves the entire list as a data structure.
 {% endhint %}
 
 Creating a menu defines a menu object in the background but doesn't create an instance of it on our screen. To do that we can use: `(MENU NEWMENU POSITION)` where the first `MENU` tells Medley to create a new menu with the name `MENU` at `POSITION` . Example: `(MENU button-menu 700 200)` . This is just an example and won't work because button-menu hasn't been defined yet.
