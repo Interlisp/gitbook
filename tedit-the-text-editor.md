@@ -128,5 +128,5 @@ The file we saved earlier: plain-text.txt has now been imported to TEdit for us 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-We can only import text files into TEdit. PDF imports won't be imported as intended.
+We can only import text files into TEdit. PDF imports won't be displayed as intended.
 {% endhint %}
