@@ -8,4 +8,4 @@
 * ~~Debugging.~~
 * ~~How to use the structure editor.~~
 * ~~Using TEDIT.~~
-* Hardcopy.
+* ~~Hardcopy~~.
