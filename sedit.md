@@ -42,6 +42,14 @@ Our function name has now been changed from `new-fn` to `differ` . Try out the f
 
 <figure><img src=".gitbook/assets/differ.png" alt=""><figcaption></figcaption></figure>
 
+#### **Comments**
+
+We can add comments in SEdit, using semicolon.&#x20;
+
+Three levels of comments are supported in Medley. According to the Interlisp Reference Manual:
+
+> Single-semicolon comments are formatted at the comment column, about three-quarters of the way across the window. Doublesemicolon comments are formatted at the current indentation of the code they are in. Triple semicolon comments are formatted against the left margin. The level of a comment can be increased or decreased by pointing after the semicolon, and either typing another semicolon, or backspacing over the preceding semicolon.
+
 \[Add mentions of copy, delete, key combinations]
 
 \[Talk about DV and ED mappings]
