@@ -44,14 +44,6 @@ The LISP evaluator processes s-expressions to produce a result. After the reader
 
 The REPL is a mother listener, of sorts. In LISP, the REPL is always on-ready to read -> evaluate -> print and repeat.
 
-#### **Comments**
-
-We can add a comment in LISP, using a semicolon. In a later chapter, we'll learn to use the powerful structure editor or SEdit in Medley, where we can add comments as documentation for our LISP objects.&#x20;
-
-Three levels of comments are supported in Medley. According to the Interlisp Reference Manual:
-
-> Single-semicolon comments are formatted at the comment column, about three-quarters of the way across the window. Doublesemicolon comments are formatted at the current indentation of the code they are in. Triple semicolon comments are formatted against the left margin. The level of a comment can be increased or decreased by pointing after the semicolon, and either typing another semicolon, or backspacing over the preceding semicolon.
-
 #### **Single Quote ( ' )**
 
 Some s-expressions are self-evaluating, meaning they represent their own value directly. Numbers and strings are great examples; when you type `42` or `"hello"` into the Lisp REPL, the evaluator simply returns that exact value.
