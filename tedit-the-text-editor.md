@@ -64,6 +64,18 @@ Another left-click removes either the on or off state and returns the option to 
 
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
+APPLY:
+
+This applies the changes to the selected text.
+
+SHOW:
+
+This shows which options have been applied and turned off for the selected text. It's useful when we've applied multiple changes to our text and/or our page.
+
+NEUTRAL:
+
+This returns all active and selected menu items to neutral. It's the default state of the persistent menus.
+
 #### Saving TEdit Files
 
 We can save our text in either plain text format or as a PDF.&#x20;
