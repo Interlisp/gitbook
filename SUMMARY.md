@@ -8,7 +8,7 @@
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
 * [Saving Your Work](saving-your-work.md)
 * [Editing functions with SEdit](sedit.md)
-* [Loops and Conditionals](loops-and-conditionals.md)
+* [Iterators and Conditionals](iterators-and-conditionals.md)
 * [TEdit, The Text Editor](tedit-the-text-editor.md)
 * [Debugging](debugging.md)
 * [Drawing and Displaystreams](drawing-and-displaystreams.md)
