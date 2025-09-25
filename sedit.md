@@ -32,9 +32,11 @@ Now, click the middle-mouse button on the black title bar to see a new menu appe
 
 <figure><img src=".gitbook/assets/sedit menu 2.png" alt="" width="376"><figcaption></figcaption></figure>
 
-Select the option Done, Compile and Close to update our function. We are going to test our new function soon. But first, let's update the name to match what it does.&#x20;
+Select the option Done, Compile, and Close to update our function. We are going to test our new function soon. But first, let's update the name to match what it does.&#x20;
 
-We can use the `(RENAME 'old-function-name 'new-function-name)` method. In the Exec, type:
+We can use the `RENAME` function to change the name of a symbol- for example, the name of a function. The general form is: `(RENAME 'old-function-name 'new-function-name)` .&#x20;
+
+In the Exec, type:
 
 `(RENAME 'new-fn 'differ)`
 
