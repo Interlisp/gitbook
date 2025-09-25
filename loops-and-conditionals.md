@@ -38,7 +38,7 @@ Each clause is evaluated in order and is a list of the form (P<sub>1</sub> C<sub
 
 Your function should look similar to this:
 
-<figure><img src=".gitbook/assets/COND.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
