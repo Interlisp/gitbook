@@ -68,11 +68,11 @@ Medley has a large collection of iterative statement operators. Check out the IR
 
 ***
 
-**Do it yourself:** Write a loop to collect all the numbers from a list of mixed data in a new list. Is it similar to this example:
+**Do it yourself:** Write a loop to collect all the numbers from a list of mixed data in a new list.&#x20;
 
-<figure><img src=".gitbook/assets/findnumberfromlist.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-Can you put a loop inside a COND statement? Go give it a try!
+Can you put a loop inside a COND statement? Give it a try!
 
 
 
