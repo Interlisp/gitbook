@@ -22,7 +22,7 @@ You will see a new window appear on your screen with the title: SEdit new-fn Pac
 
 <figure><img src=".gitbook/assets/SEDIT unedited1.png" alt=""><figcaption></figcaption></figure>
 
-Click on a part of the code and you see a blinking caret appear in place. You can either: Left-click beside a symbol to type new items or left-click on a symbol to edit it. A selected symbol will be underlined. Click the middle-mouse button on a selected object to select different layers of its parents. So, middle-mouse on an item in our list `(X Y)` will first select the entire list and a subsequent click will select the entire function.
+Click on a part of the code, and you'll see a blinking text cursor appear in place. You can either: Left-click beside a symbol to type new items or left-click on a symbol to edit it. A selected symbol will be underlined. Click the middle-mouse button on a selected object to select different layers of its parents. So, middle-mouse on an item in our list `(X Y)` will first select the entire list and a subsequent click will select the entire function.
 
 We are trying to change this function into one that'll give us the difference between X and Y. Try editing the function to put a minus before X. It should look like:
 
