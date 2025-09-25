@@ -62,7 +62,7 @@ Medley has a large collection of iterative statement operators. Check out the IR
 
 `TO`: Specifies the end value.
 
-`IN`: Finds one instance of a matching element from a list with each iteration.
+`IN`: Steps through each element of a list, returning the first one that matches a given condition.
 
 `WHEN`: Only runs when the condition is met.
 
