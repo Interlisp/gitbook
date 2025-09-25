@@ -16,7 +16,7 @@ You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapte
 
 #### Conditionals
 
-You may have used if/else statements in other programming languages. `COND` can be used to chain together multiple if/else logic concisely. You can consider it similar to `match` blocks.
+You may have used `if/else` statements in other programming languages. In Interlisp, `COND` lets you chain together multiple conditional branches concisely. If you're familiar with `switch` statements in C++ or C#, or `match` blocks in Python, `COND` serves a similar purpose- evaluating conditions in order and returning the result of the first one that succeeds.
 
 A verbose conditional block like `(if A then B else if C then D else E)` can be rewritten instead as:
 
