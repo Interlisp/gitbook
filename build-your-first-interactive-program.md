@@ -149,7 +149,7 @@ We'll make a new `nav-button` with our `nav-sys` function attached!
 
 In your Exec, type:
 
-{% code overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```lisp
 (SETQ nav-button 
 (CREATE MENU 
