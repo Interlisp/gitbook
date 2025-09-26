@@ -52,7 +52,7 @@ Refer to the [Interlisp Reference Manual's](https://interlisp.org/documentation/
 
 A list in LISP is an ordered collection of s-expressions enclosed in parentheses. Lists are fundamental to LISP because the name itself stands for List Processing. A list can contain atoms, such as numbers or symbols, and other s-expressions. Lists allow LISP to represent sequences of operations, arguments for functions, or structured data. By combining atoms and lists in this way, we can build expressions of any complexity.
 
-One of LISP's special powers is homoiconicity, the ability to treat both code and data as data (inside lists). Programming languages let us automate changing our data. In LISP, we can treat our logic as data and automate its modification as well. Cool!
+One of LISP's special powers is _homoiconicity-_ the ability to represent both code and data using the same structure: lists. Most programming languages let us automate the manipulation of data. In LISP, we can go further: we can manipulate our logic/code as data. This opens the door to inspecting, transforming, or even generating code programmatically. Pretty cool!
 
 `CONS` is the primary function for constructing pairs in LISP. Each pair, called a **cons cell**, contains exactly two parts:
 
