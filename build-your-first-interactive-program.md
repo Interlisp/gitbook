@@ -26,7 +26,7 @@ Predefined regions are useful when we want to create multiple windows of the sam
 
 Do you see your window? Play around with the values to get a feel of the pixel density!&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Try to create a window with no title and border. Can you make one that looks like a button?
 
@@ -110,7 +110,7 @@ Let's create a list of distress calls we can randomly cycle through each time we
 "Help! Nav systems compromised. Lethal solar flare imminent."
 "Help! Nav systems compromised. Stuck in orbit. Planetfall- ETA: 2 cycles."
 "Help! Nav systems compromised. Class 3 Destroyer approaching. Contact- ETA: 6 cycles."
-"Help! Nav systems compromised. Direction constant but unknown. Debris field. Contact- High."
+"Help! Nav systems compromised. Direction constant. Speed unknown. Debris field ahead. Contact- High."
 ))
 ```
 {% endcode %}
@@ -121,13 +121,10 @@ Now, that we have a list named `distress-calls` , we can set up a function calle
 
 We can define a new function with `DEFINEQ` . In your Exec, type:
 
-{% code title="" overflow="wrap" lineNumbers="true" %}
-```lisp
-(DEFINEQ (nav-sys (LAMBDA (X) 
-(PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
+<pre class="language-lisp" data-overflow="wrap" data-line-numbers><code class="lang-lisp"><strong>(DEFINEQ (nav-sys (LAMBDA (X) 
+</strong>(PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
 display-window))))
-```
-{% endcode %}
+</code></pre>
 
 Let's break down our function:
 
@@ -156,7 +153,7 @@ In your Exec, type:
 ```lisp
 (SETQ nav-button 
 (CREATE MENU 
-ITEMS ← '("NAVIGATION SYSTEM FAILURE")
+ITEMS ← '("NAVIGATION SYSTEM CHECK")
 WHENSELECTEDFN ← (FUNCTION nav-sys)
 ))
 ```
@@ -165,6 +162,12 @@ WHENSELECTEDFN ← (FUNCTION nav-sys)
 Our new button only has a small addition (and a different name).&#x20;
 
 `WHENSELECTEDFN ← (FUNCTION nav-sys)` executes the function `nav-sys` when menu-item (our button `nav-button` ) is selected.
+
+Let's add our new button to our DISPLAY MODULE window next. Type:
+
+`(ATTACHMENU nav-button display-window 'BOTTOM 'CENTER)`
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and interact with your button!
 
