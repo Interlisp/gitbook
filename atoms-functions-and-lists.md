@@ -2,9 +2,9 @@
 
 #### Atoms and S-Expressions
 
-The smallest parts of LISP code are called atoms. An atom can be a number, a symbol, or a name that identifies a function or variable. Some atoms are built into the language, like `+` for addition, while others are defined by the programmer, like variable names or custom function names.
+The smallest parts of Lisp code are called atoms. An atom can be a number, a symbol, or a name that identifies a function or variable. Some atoms are built into the language, like `+` for addition, while others are defined by the programmer, like variable names or custom function names.
 
-Everything in LISP, whether an atom or a collection of atoms, is represented as a symbolic expression, or s-expression. Atoms are s-expressions by themselves, while lists are s-expressions that contain other s-expressions, written with parentheses: `(A B C)` is a list containing three s-expressions.
+Everything in Lisp, whether an atom or a collection of atoms, is represented as a symbolic expression, or s-expression. Atoms are s-expressions by themselves, while lists are s-expressions that contain other s-expressions, written with parentheses: `(A B C)` is a list containing three s-expressions.
 
 By combining atoms into lists and other s-expressions, we can build more complex logic and programs.
 
@@ -50,18 +50,18 @@ Refer to the [Interlisp Reference Manual's](https://interlisp.org/documentation/
 
 #### Lists
 
-A list in LISP is an ordered collection of s-expressions enclosed in parentheses. Lists are fundamental to LISP because the name itself stands for List Processing. A list can contain atoms, such as numbers or symbols, and other s-expressions. Lists allow LISP to represent sequences of operations, arguments for functions, or structured data. By combining atoms and lists in this way, we can build expressions of any complexity.
+A list in Lisp is an ordered collection of s-expressions enclosed in parentheses. Lists are fundamental to Lisp because the name itself stands for List Processing. A list can contain atoms, such as numbers or symbols, and other s-expressions. Lists allow Lisp to represent sequences of operations, arguments for functions, or structured data. By combining atoms and lists in this way, we can build expressions of any complexity.
 
-One of LISP's special powers is _homoiconicity-_ the ability to represent both code and data using the same structure: lists. Most programming languages let us automate the manipulation of data. In LISP, we can go further: we can manipulate our logic/code as data. This opens the door to inspecting, transforming, or even generating code programmatically. Pretty cool!
+One of Lisp's special powers is _homoiconicity-_ the ability to represent both code and data using the same structure: lists. Most programming languages let us automate the manipulation of data. In Lisp, we can go further: we can manipulate our logic/code as data. This opens the door to inspecting, transforming, or even generating code programmatically. Pretty cool!
 
-`CONS` is the primary function for constructing pairs in LISP. Each pair, called a **cons cell**, contains exactly two parts:
+`CONS` is the primary function for constructing pairs in Lisp. Each pair, called a **cons cell**, contains exactly two parts:
 
 * The **CAR**, which holds the first element
 * The **CDR**, which holds the second element
 
-These are historical terms that have persisted from the early days of LISP. To make them easier to read, Common Lisp also defines `FIRST` as an alias for `CAR` and `REST` as an alias for `CDR`.
+These are historical terms that have persisted from the early days of Lisp. To make them easier to read, Common Lisp also defines `FIRST` as an alias for `CAR` and `REST` as an alias for `CDR`.
 
-Every list in LISP is made from cons cells linked together. A single cons cell can hold atoms or other cons cells in either its CAR or CDR. Lists end when a CDR is `NIL`.
+Every list in Lisp is made from cons cells linked together. A single cons cell can hold atoms or other cons cells in either its CAR or CDR. Lists end when a CDR is `NIL`.
 
 For example:
 
