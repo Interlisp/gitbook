@@ -171,7 +171,9 @@ Let's add our new button to our DISPLAY MODULE window next. Type:
 
 Go ahead and interact with your button!
 
-Is your distress call module working? Cool! In the upcoming chapters, we'll add more features to our Display Module. While building this project, for each feature we'll explore and learn new bits of Medley Interlisp!
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+Is your distress call module working?&#x20;
 
 
 
