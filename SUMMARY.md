@@ -14,8 +14,3 @@
 * [Drawing and Displaystreams](drawing-and-displaystreams.md)
 * [Making a Graph with Grapher](making-a-graph-with-grapher.md)
 * [Additional Resources](additional-resources.md)
-
-## Notes
-
-* [Proposed topics for next chapters](notes/proposed-topics-for-next-chapters.md)
-* [Intro- Outline](notes/intro-outline.md)
