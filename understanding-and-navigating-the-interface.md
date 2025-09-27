@@ -63,3 +63,21 @@ To expand a menu item: If the item has a gray arrow, sliding the pointer over it
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 We can also create our own menus and repurpose them for different tasks. You'll learn more about this moving forward!
+
+When interacting with windows, a right-click on the window produces the default contextual menu, which has the following options:
+
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+| Menu Item | Action                                                                                                                                                                                                            |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Close     | Closes the window, removing it from the screen                                                                                                                                                                    |
+| Snap      | Prompts the user for a region on the screen and creates a new window containing a snapshot (bitmap) of the bits currently in that region                                                                          |
+| Paint     | Switches to a drawing mode where the cursor acts as a paint brush. The LEFT button adds bits, and the MIDDLE button erases them. The RIGHT button pops up a command menu to change brush options or stop the mode |
+| Clear     | Clears the window by erasing all contents within its boundaries and repositions it to the left margin of the first line of text                                                                                   |
+| Bury      | Puts the window on the bottom of the occlusion stack, thereby exposing any windows it was previously hiding                                                                                                       |
+| Redisplay | Redisplays the window contents                                                                                                                                                                                    |
+| Hardcopy  | Prints the contents of the window to the printer or to a file. Used to produce a PDF.                                                                                                                             |
+| Move      | Moves the window to a new location specified by pressing and releasing the LEFT mouse button                                                                                                                      |
+| Shape     | Allows the user to specify a new region and size for the existing window contents                                                                                                                                 |
+| Shrink    | Reduces the window to an icon (a small black rectangle or specialized shape)                                                                                                                                      |
+| Expand    | Appears in place of Shrink when the menu is accessed from an icon (shrunken window). It restores the window associated with the icon and removes the icon                                                         |
