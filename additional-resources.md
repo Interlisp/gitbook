@@ -7,4 +7,5 @@ We have an excellent selection of resources of all types for you to explore, whe
 * Medley Interlisp Project, [YouTube Channel](https://www.youtube.com/@Interlisp)
 * The [discussion board on GitHub](https://github.com/orgs/Interlisp/discussions) is for general discussions and questions on the Medley environment, the Interlisp language, and Lisp development on the Medley system.
 * An [article ](https://parentheticallyspeaking.org/articles/bicameral-not-homoiconic/)(not by us) laying out the debate around Lisp's homoiconicity.
+* [More useful key combinations](https://interlisp.org/software/using-medley/keystrokes/).
 *
