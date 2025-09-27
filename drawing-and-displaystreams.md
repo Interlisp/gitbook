@@ -2,7 +2,7 @@
 
 In _Build Your First Interactive Program,_ we learnt how to make our own windows. In Medley, we can create a special window for drawing, somewhat similar to a pixel art editor- a bitmap editor. A bitmap is a rectangular array of pixels.
 
-The form `(BITMAPCREATE width height)` creates a bitmap in the background but cannot be seen till we assign a variable name to it and edit it. We can edit a bitmap using:
+The form `(BITMAPCREATE width height)` creates a bitmap in the background, but it cannot be seen till we assign a variable name to it and edit it. We can edit a bitmap using:
 
 `(EDITBM bitmap-name)`
 
@@ -21,9 +21,9 @@ Your cursor will now display the outline of the window you created. Your Prompt 
 
 <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-To draw, hold down on your left mouse button and to erase hold down your middle mouse button.
+To draw, hold down on your left mouse button, and to erase, hold down your middle mouse button.
 
-To save your bitmap, hold down the middle mouse button in the solid gray box in the upper-center area. A menu will appear. While holding down the middle mouse button place your cursor on top of "OK" and let go. Your work will be saved and the window will close. The next time you edit your bitmap, you'll see what you previously drew.
+To save your bitmap, hold down the middle mouse button in the solid gray box in the upper-center area. A menu will appear. While holding down the middle mouse button, place your cursor on top of "OK" and let go. Your work will be saved, and the window will close. The next time you edit your bitmap, you'll see what you previously drew.
 
 <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -65,15 +65,15 @@ Try displaying your new artwork in a new window. Refer to previous chapters if y
 
 ***
 
-Till now, we've learnt how to create windows with a predefined size, border and title. But there's a simpler way to make a window:
+Till now, we've learnt how to create windows with a predefined size, border, and title. But there's a simpler way to make a window:
 
 In an Exec, type: `(SETQ my.window (CREATEW)`
 
-Your cursor will change. You can now click, drag and create a new window of any size. You can refer to this window just like any other using the name you set, which is my.window for this example.
+Your cursor will change. You can now click, drag, and create a new window of any size. You can refer to this window just like any other using the name you set, which is my.window for this example.
 
 <figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Windows are displaystreams. A display stream is a simply a place to display. They determine what is displayed and where. We've learnt to draw with a dedicated bitmap editor but did you know we can also draw on a disaplystream- a window with code?
+Windows are displaystreams. A display stream is simply a place to display. They determine what is displayed and where. We've learnt to draw with a dedicated bitmap editor but did you know we can also draw on a disaplystream- a window with code?
 
 There are four primary functions for drawing to a displaystream:
 

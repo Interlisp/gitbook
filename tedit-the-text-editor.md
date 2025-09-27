@@ -30,7 +30,7 @@ To remove all formatting, use the Defaults button.
 
 <figure><img src=".gitbook/assets/tedit font changes.png" alt=""><figcaption></figcaption></figure>
 
-#### Persistent Menus: Apply, Show and Neutral
+#### Persistent Menus: Apply, Show, and Neutral
 
 We can access more functions through the Expanded Menu. These menus are persistent: they will stay at the position they appear till we close them. Select the Expanded Menu by hovering over it in the menu and letting go of the mouse button. A new panel titled TEdit Menu should appear above your TEdit window.
 
@@ -40,10 +40,10 @@ Options like Page Layout, Char looks, and Para looks will open their respective 
 
 <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-The expanded menu gives us a lot of options to change the look and layout of our text and the page. Except APPLY, SHOW and NEUTRAL, in the persistent menu some menu items have three states (On, Off, Neutral) and some have two states (On and Neutral):
+The expanded menu gives us a lot of options to change the look and layout of our text and the page. Except for APPLY, SHOW, and NEUTRAL, in the persistent menu, some menu items have three states (On, Off, Neutral) and some have two states (On and Neutral):
 
 {% hint style="info" %}
-These three states can either be applied or removed from your selected text or to your page. Remember, you can select a piece of text by using the left mouse button for selecting letters, the middle mouse button for selecting words and holding down and dragging the right mouse button over larger chunks of text like sentences and paragraphs.&#x20;
+These three states can either be applied or removed from your selected text or to your page. Remember, you can select a piece of text by using the left mouse button for selecting letters, the middle mouse button for selecting words, and holding down and dragging the right mouse button over larger chunks of text like sentences and paragraphs.&#x20;
 {% endhint %}
 
 On:
@@ -54,7 +54,7 @@ A left-click selects and turns on a menu item in the persistent menus. This chan
 
 Off:
 
-Another left-click shows a oblique line across the option indicating that the option is now off. The change is now ready to be removed from the selected text.
+Another left-click shows an oblique line across the option, indicating that the option is now off. The change is now ready to be removed from the selected text.
 
 <figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -77,7 +77,7 @@ NEUTRAL:
 This returns all active and selected menu items to neutral. It's the default state of the persistent menus.
 
 {% hint style="info" %}
-Two-state menu items like the fonts cannot be turned off. We simply switch to a different option than the currently active one and apply it.
+Two-state menu items, like the fonts, cannot be turned off. We simply switch to a different option than the currently active one and apply it.
 {% endhint %}
 
 #### Saving TEdit Files
@@ -123,7 +123,7 @@ Just like Put, we'll be prompted for a file path, which for the online version o
 
 <figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-The file we saved earlier: plain-text.txt has now been imported to TEdit for us to edit.
+The file we saved earlier, plain-text.txt, has now been imported to TEdit for us to edit.
 
 <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 

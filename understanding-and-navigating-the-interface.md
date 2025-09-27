@@ -1,24 +1,24 @@
 # Understanding and Navigating the Interface
 
-After you start Medley, you should see five distinct sections making up the interface on your screen: the prompt window and the executive window on the left, a bar displaying system information at the top, and, the Medley Interlisp logo and a Documentation and Optional Features section on the right.&#x20;
+After you start Medley, you should see five distinct sections making up the interface on your screen: the prompt window and the executive window on the left, a bar displaying system information at the top, and the Medley Interlisp logo and a Documentation and Optional Features section on the right.&#x20;
 
 <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 #### The Executive Window
 
-The Executive Window or Exec on the left is the primary window where we can write programs and write code to run other features of Medley Interlisp. There are two flavors of the executive window: Interlisp and Common Lisp. The type you're using is displayed in the title bar of the executive window.&#x20;
+The Executive Window, or Exec on the left, is the primary window where we can write programs and code to run other features of Medley Interlisp. There are two flavors of the executive window: Interlisp and Common Lisp. The type you're using is displayed in the title bar of the executive window.&#x20;
 
 You can create more executive windows in your LISP flavor of choice through the EXEC menu item. Keep on reading to learn more about menus. Yes, you can have multiple executive windows present at the same time.
 
-When you start Medley, the default executive window prints some system information (which you can ignore) followed by the flavor. A blinking caret/indicator shaped like the head of an upward pointing arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now!).
+When you start Medley, the default executive window prints some system information (which you can ignore), followed by the flavor. A blinking caret/indicator shaped like the head of an upward-pointing arrow on Line 3 tells you the system is ready for input. This is where we'll type (for now!).
 
 <figure><img src=".gitbook/assets/EXEC (INTERLISP).png" alt=""><figcaption></figcaption></figure>
 
-❕When you have multiple executive windows open, each Exec keeps track of which number of window it is (as in: is this the second or third or the seven-hundredth exec) and the line number in relation to the other execs present. So, if you're on Line 8 on one window, the new line when you switch to a new window will be Line 9, even if the previous line was something else.
+❕When you have multiple executive windows open, each Exec keeps track of which number of window it is (as in: is this the second, third, or the seven-hundredth exec) and the line number in relation to the other execs present. So, if you're on Line 8 on one window, the new line when you switch to a new window will be Line 9, even if the previous line was something else.
 
 #### Prompt Window:
 
-The prompt window at the top-left part of the screen (on top of the starting Exec) is a dedicated area for displaying system prompts and messages. We can print our own text here as well. The prompt window displays useful information about your current task and will ask you for the next step.
+The prompt window, located at the top-left part of the screen (above the starting Exec), is a dedicated area for displaying system prompts and messages. We can print our own text here as well. The prompt window displays useful information about your current task and will ask you for the next step.
 
 <figure><img src=".gitbook/assets/Prompt Window.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@ The prompt window at the top-left part of the screen (on top of the starting Exe
 
 This bar displays a bunch of important system information we can gloss over for now. If you left-click on Rdtbl, you'll see a menu appear with options for how Medley should read our syntax. Interlisp, the default readtable, is case-sensitive (so FUNCTION-NAME and function-name are not the same functions).&#x20;
 
-Sometimes, Medley's error-checking module will interpret the right case even if you make a mistake or ask you for confirmation. But if you want a smoother typing experience without having to worry about case, you could switch to the XCL Rdtbl which treats upper and lower case letters as the same.
+Sometimes, Medley's error-checking module will interpret the right case even if you make a mistake or ask you for confirmation. But if you want a smoother typing experience without having to worry about case, you could switch to the XCL Rdtbl, which treats upper and lower case letters as the same.
 
 #### Help and Optional Features:
 

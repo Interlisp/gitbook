@@ -1,6 +1,6 @@
 # Making a Graph with Grapher
 
-Grapher is a small program for making graphs in Medley. There are a few ways to do that but for now we'll stick to the easiest method.&#x20;
+Grapher is a small program for making graphs in Medley. There are a few ways to do that, but for now, we'll stick to the easiest method.&#x20;
 
 The function SHOWGRAPH displays graphs and allows you to edit them. The parameters of SHOWGRAPH are:
 
@@ -12,15 +12,15 @@ Start by declaring a variable name. In an Exec, type:
 
 `(SETQ my.graph NIL)`
 
-Now let's create a window which will serve as a graph editor:
+Now, let's create a window which will serve as a graph editor:
 
 `(SHOWGRAPH my.graph "My Graph" NIL NIL NIL T)`
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Place your graph on an empty space. If you want to change the size and shape of the window, hold down the right mouse button on the title bar just like you would with any window, place your cursor on the menu item Shape and let go.
+Place your graph in an empty space. If you want to change the size and shape of the window, hold down the right mouse button on the title bar just like you would with any window, place your cursor on the menu item Shape, and let go.
 
-Let's start building our graph by adding and connecting nodes. In the white space in the graph editor window, hold down your right mouse button and a different menu will appear with context-relevant options to choose from.
+Let's start building our graph by adding and connecting nodes. In the white space in the graph editor window, hold down your right mouse button, and a different menu will appear with context-relevant options to choose from.
 
 <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@ This is the label of your node. Type Node ONE for now and press Enter. You'll se
 
 <figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Add three more nodes with the labels One A, One B and One C respectively.
+Add three more nodes with the labels One A, One B, and One C, respectively.
 
 <figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@ You'll notice a straight line from Node ONE to ONE A in your graph window. Add t
 
 <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-You can also move and delete nodes. To move a node, select Move Node from the menu. Once the menu disappears, hold down left mouse button on the node you want to move, drag it to a new location and let go.&#x20;
+You can also move and delete nodes. To move a node, select Move Node from the menu. Once the menu disappears, hold down the left mouse button on the node you want to move, drag it to a new location, and let go.&#x20;
 
 To delete a node, select Delete from the menu and then the node to be deleted.
 
