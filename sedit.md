@@ -46,12 +46,20 @@ Our function name has now been changed from `new-fn` to `differ` . Try out the f
 
 #### **Comments**
 
-We can add comments in SEdit, using semicolon.&#x20;
+We can add comments in SEdit, using a semicolon.&#x20;
 
 Three levels of comments are supported in Medley. According to the Interlisp Reference Manual:
 
 > Single-semicolon comments are formatted at the comment column, about three-quarters of the way across the window. Doublesemicolon comments are formatted at the current indentation of the code they are in. Triple semicolon comments are formatted against the left margin. The level of a comment can be increased or decreased by pointing after the semicolon, and either typing another semicolon, or backspacing over the preceding semicolon.
 
-\[Add mentions of copy, delete, key combinations]
+#### Useful Key Combinations
 
-\[Talk about DV and ED mappings]
+| Operation                    | Input/Key Combination                                                                        | Description                                                                                                                     |
+| ---------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Copy and Paste Selected Text | Hold SHIFT while making a mouse selection (Left or Middle button). Let go of SHIFT to paste. | Inserts the selected text at the text cursor position.                                                                          |
+| Cut and Paste Selected Text  | Hold CTRL + SHIFT while making a mouse selection. Let go to paste.                           | Combines copy and delete actions, moving the selected text to the text cursor position.                                         |
+| Undo Deletion                | Alt + U (Windows), Option + U (Mac OS)                                                       | Undos recently deleted text.                                                                                                    |
+| Delete Selected Text         | Hold CTRL while making a mouse selection (Left or Middle button)                             | Deletes the selected text.                                                                                                      |
+| Parenthesize                 | <p>Alt/Option+ ( </p><p>or Alt/Option + )</p>                                                | Encapsulates the selected text in parenthesis.                                                                                  |
+| Delete Backward (Word/Atom)  | Control-W                                                                                    | Deletes the previous atom or structure. If the cursor is inside an atom, it deletes backward only to the beginning of the atom. |
+| Find Forward                 | Alt/Option + F                                                                               | Finds the next occurrence of a specified structure (or the currently selected structure).                                       |
