@@ -35,8 +35,16 @@ For example, I saved a PDF from TEdit by typing out the file name and not the fu
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-I installed Medley on the R: drive, in Installations/Programs/. So, I can find the file I just saved at:
+{% hint style="info" %}
+Here, {DSK} refers to the folder titled "il" containing your Medley installation.
+{% endhint %}
+
+I installed Medley on the R drive, in the Installations/Programs folder. So, I can find the file I just saved at:
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The Medley installation shown above is on Windows 11. Your file paths may slightly vary on other operating systems. For a quick check, try saving a file, and Medley will print out where it's being saved to by default. To learn how to save files, take a look at the chapters: Saving Your Work and TEdit, The Text Editor.
+{% endhint %}
 
 As we learn to use `LOAD` , `MAKEFILES`, and other helpful functions related to handling files in Medley Interlisp, we don't need to change our file paths while using either version of Medley, but it's good to be aware where they are located so we can use that information later to organize our files better.
