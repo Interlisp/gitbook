@@ -1,6 +1,6 @@
 # Build Your First Interactive Program
 
-Building quick and easy interfaces is one of Medley Interlisp's most powerful features. You can always refer to the Interlisp Reference Manual for an exhaustive list of its GUI capabilities. In the primer, however, we'll learn by building modular interfaces for tools that can be connected to form a larger, coherent system. We'll start with basic forms and upgrade our tools and underlying structures as our understanding of the system grows. For now, it's time to build our first interactive program—a distress call module for a spaceship.&#x20;
+Building quick and easy interfaces is one of Medley Interlisp's most powerful features. You can always refer to the Interlisp Reference Manual for an exhaustive list of its GUI capabilities. It's time to build our first interactive program—a distress call module for a spaceship.&#x20;
 
 In this chapter, we'll learn to do the following things in Medley:
 
