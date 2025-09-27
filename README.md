@@ -14,3 +14,5 @@ This primer is a great starting point, serving as a beginner's guide to programm
 
 It'll cover only a little more than the basics of the environment. For a more comprehensive reference, please refer to the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) (IRM).
 
+Take a look at our FAQ section on the website before you start: [https://interlisp.org/project/faqs/](https://interlisp.org/project/faqs/)
+
