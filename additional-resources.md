@@ -4,6 +4,9 @@ You've reached the end of this primer. But your journey with Medley Interlisp ha
 
 We have an excellent selection of resources of all types for you to explore, whether it's cool things you can do with Medley and Interlisp or fascinating chunks of history you can read and watch.
 
+* [Running and installing Medley](https://interlisp.org/software/install-and-run/) on different operating systems.
+* [All documentation](https://interlisp.org/software/using-medley/): old, new, for beginners and advanced users.
+* [Use Medley online](https://interlisp.org/software/access-online/) without having to install anything.
 * [Frequently asked questions](https://interlisp.org/project/faqs/)
 * Medley Interlisp Project, [YouTube Channel](https://www.youtube.com/@Interlisp)
 * The [discussion board on GitHub](https://github.com/orgs/Interlisp/discussions) is for general discussions and questions on the Medley environment, the Interlisp language, and Lisp development on the Medley system.
