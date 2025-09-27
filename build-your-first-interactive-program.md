@@ -159,13 +159,19 @@ WHENSELECTEDFN ← (FUNCTION nav-sys)
 ```
 {% endcode %}
 
-Our new button only has a small addition (and a different name).&#x20;
+Our new button has only a minor addition (and a different name).&#x20;
 
 `WHENSELECTEDFN ← (FUNCTION nav-sys)` executes the function `nav-sys` when menu-item (our button `nav-button` ) is selected.
 
-Let's add our new button to our DISPLAY MODULE window next. Type:
+We'll create a new window called NAV SYSTEM DISPLAY:
 
-`(ATTACHMENU nav-button display-window 'BOTTOM 'CENTER)`
+```lisp
+(SETQ nav-display (CREATEW (CREATEREGION 500 500 300 200) "NAV SYSTEM DISPLAY" 10))
+```
+
+Let's add our button to our new window next. Type:
+
+`(ATTACHMENU nav-button nav-display 'BOTTOM 'CENTER)`
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
