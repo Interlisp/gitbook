@@ -13,7 +13,7 @@ function saves the current state of Medley's virtual memory in a "sysout file". 
 
 Once inside Medley Online, to your very left, you'll find a sidebar expandable with a left-arrow icon.&#x20;
 
-<img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> &#x20;
+<img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> &#x20;
 
 We'll talk about the other options this sidebar provides. For now, let's focus on the first one, a useful virtual file manager. Click, and you should see a warning that the file manager will open in a new window. Go ahead and press Ok. A new tab should appear in your browser with the following window:
 
@@ -23,10 +23,20 @@ Right above, the text "Name", you'll notice that all our important files are sto
 
 If you're running Medley locally, your system files are also inside a folder titled "il" but your saved files will be in a nested subfolder titled "home". So, when you save files in Medley Online, it's saved to the path `il/`
 
-When you save files in Medley Local, your files are saved to the path: `il/home/username/`
+When you save files in Medley Local, your files are saved to the path: `il/home/username/il/`
 
 {% hint style="info" %}
-"username" will of course be replaced by your username.
+The first "il" is the default name of the folder where Medley is installed, inside the drive you chose during the installation process.
+
+"username" will, of course, be replaced by your username.
 {% endhint %}
+
+For example, I saved a PDF from TEdit by typing out the file name and not the full path. Medley let me know that it has been saved to:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+I installed Medley on the R: drive, in Installations/Programs/. So, I can find the file I just saved at:
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 As we learn to use `LOAD` , `MAKEFILES`, and other helpful functions related to handling files in Medley Interlisp, we don't need to change our file paths while using either version of Medley, but it's good to be aware where they are located so we can use that information later to organize our files better.

@@ -30,11 +30,11 @@ Select Add Node, and you'll see a small window appear on top of the graph window
 
 This is the label of your node. Type Node ONE for now and press Enter. You'll see a node attached to your cursor. To place the node, left-click on any empty space in the window. Your node will appear with the label you set.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add three more nodes with the labels One A, One B and One C respectively.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's link these nodes. Bring up the main menu for the graph window and select Add Link.
 

@@ -26,7 +26,7 @@ Predefined regions are useful when we want to create multiple windows of the sam
 
 Do you see your window? Play around with the values to get a feel of the pixel density!&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Try to create a window with no title and border. Can you make one that looks like a button?
 
@@ -167,7 +167,7 @@ Let's add our new button to our DISPLAY MODULE window next. Type:
 
 `(ATTACHMENU nav-button display-window 'BOTTOM 'CENTER)`
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and interact with your button!
 
