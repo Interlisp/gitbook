@@ -52,7 +52,7 @@ But when it comes to Inspect, we do want the system to understand the contents o
 
 #### BREAK
 
-Breaking a function lets us halt the function midway and interrogate what could be going wrong in a dedicated Break Window. We can break and unbreak entire functions. This is handy when your function is huge, complex, and expensive to compute. We can also insert conditional breakpoints inside a function that breaks the function if certain criteria are met. This is useful when you want to ask questions about the flow of data through your program. Or when you want your program to stop its operation if (as opposed to printing the state and continuing).
+The `BREAK` command sets a breakpoint, letting you halt a function midway and inspect what might be going wrong in a dedicated Break Window. We can break and unbreak entire functions. This is handy when your function is huge, complex, and expensive to compute. We can also insert conditional breakpoints inside a function that breaks the function if certain criteria are met. This is useful when you want to ask questions about the flow of data through your program. Or when you want your program to stop its operation if (as opposed to printing the state and continuing).
 
 {% hint style="info" %}
 If you're stuck in an infinite loop or just want to break out of the current running function, use **Ctrl + B.**
