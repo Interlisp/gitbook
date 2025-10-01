@@ -16,7 +16,7 @@ Remember, we can refer to line numbers from any Exec. You might find it helpful 
 
 Back in the SEdit chapter, we learned about editing the definition of a function with `(DF function-name)`, which Medley internally translates to `(ED 'NAME '(FUNCTIONS FNS :DONTWAIT))`. You don't need to use this expanded form, but it's good to know what goes on in the background.&#x20;
 
-&#x20;`(ED 'function-name)`:
+&#x20;`(ED 'function-name)`
 
 While `DF` is for editing functions only, `ED` is the default editor function we can use to edit any File Manager object, including function definitions, variable values, property lists, or file package commands through SEdit.
 
