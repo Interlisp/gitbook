@@ -1,4 +1,4 @@
-# Loops and Conditionals
+# Iterators and Conditionals
 
 Medley offers a set of useful functions and operators for conditionals and loops (e.g., COND, IF, AND, OR, FOR, WHILE). It also provides us with a list of functions to compare our data and understand its type.
 
@@ -13,6 +13,10 @@ You can refer to the [IRM](https://interlisp.org/documentation/IRM.pdf)'s Chapte
 `(EQP X Y)`: Returns T if x and y are numbers and equal in value. Otherwise returns NIL.
 
 `(EQUAL X Y)`: Returns T if X and Y are numbers with equal value, or strings with the same sequence of characters, or lists where CAR of X and Y and CDR of X and Y are equal. Otherwise returns NIL.
+
+{% hint style="info" %}
+Functions ending with “P” are called _predicates._ They test a condition and return a true value (any non-`NIL` object) or `NIL`.
+{% endhint %}
 
 #### Conditionals
 
