@@ -12,6 +12,8 @@ Medley's File Manager subsystem is content-aware. It can do more than just save 
 
 
     <figure><img src=".gitbook/assets/MAKEFILE ADDER FUNCTION.png" alt="" width="433"><figcaption></figcaption></figure>
+
+    We can also use MAKEFILES to iterate the MAKEFILE operation over a list of files. MAKEFILES takes a list of files.
 3.  `(LOAD 'filename)`: Loads the file and all its objects. Use this when you start a new Medley session.\
 
 
