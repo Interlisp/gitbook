@@ -5,7 +5,7 @@
 * [Understanding and Navigating the Interface](understanding-and-navigating-the-interface.md)
 * [Understanding Lisp Syntax](understanding-lisp-syntax.md)
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
-* [Bindings and Scope: SETQ, LET, and LET\*](bindings-and-scope-setq-let-and-let.md)
+* [Variable Bindings and Scope](variable-bindings-and-scope.md)
 * [Iterators and Conditionals](iterators-and-conditionals.md)
 * [The File Browser](the-file-browser.md)
 * [Debugging](debugging.md)
