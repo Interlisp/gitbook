@@ -22,7 +22,7 @@ The prompt window, located at the top-left part of the screen (above the startin
 
 <figure><img src=".gitbook/assets/Prompt Window.png" alt=""><figcaption></figcaption></figure>
 
-#### Top bar:
+#### Who-Line:
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
