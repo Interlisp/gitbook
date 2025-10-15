@@ -11,7 +11,7 @@
 * [Editing functions with SEdit](sedit.md)
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)
 * [Saving Your Work](saving-your-work.md)
-* [TEdit, The Text Editor](tedit-the-text-editor.md)
+* [TEdit, The WYSIWYG Text Editor](tedit-the-wysiwyg-text-editor.md)
 * [Drawing and Displaystreams](drawing-and-displaystreams.md)
 * [Making a Graph with Grapher](making-a-graph-with-grapher.md)
 * [Additional Resources](additional-resources.md)
