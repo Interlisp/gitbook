@@ -6,6 +6,7 @@
 * [Understanding Lisp Syntax](understanding-lisp-syntax.md)
 * [Atoms, Functions and Lists](atoms-functions-and-lists.md)
 * [Iterators and Conditionals](iterators-and-conditionals.md)
+* [The File Browser](the-file-browser.md)
 * [Debugging](debugging.md)
 * [Editing functions with SEdit](sedit.md)
 * [Build Your First Interactive Program](build-your-first-interactive-program.md)

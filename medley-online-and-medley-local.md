@@ -13,7 +13,7 @@ function saves the current state of Medley's virtual memory in a "sysout file". 
 
 Once inside Medley Online, to your very left, you'll find a sidebar expandable with a left-arrow icon.&#x20;
 
-<img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> &#x20;
+<img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original"> &#x20;
 
 We'll talk about the other options this sidebar provides. For now, let's focus on the first one, a useful virtual file manager. Click, and you should see a warning that the file manager will open in a new window. Go ahead and press Ok. A new tab should appear in your browser with the following window:
 
@@ -33,7 +33,7 @@ The first "il" is the default name of the folder where Medley is installed, insi
 
 For example, I saved a PDF from TEdit by typing out the file name and not the full path. Medley let me know that it has been saved to:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Here, {DSK} refers to the folder titled "il" containing your Medley installation.
@@ -41,7 +41,7 @@ Here, {DSK} refers to the folder titled "il" containing your Medley installation
 
 I installed Medley on the R drive, in the Installations/Programs folder. So, I can find the file I just saved at:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Medley installation shown above is on Windows 11. Your file paths may slightly vary on other operating systems. For a quick check, try saving a file, and Medley will print out where it's being saved to by default. To learn how to save files, take a look at the chapters: Saving Your Work and TEdit, The Text Editor.
