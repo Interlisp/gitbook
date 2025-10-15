@@ -20,7 +20,7 @@ Medley's File Manager subsystem is content-aware. It can do more than just save 
 
 
     <figure><img src=".gitbook/assets/FILELIST ADDER FUNCTION.png" alt="" width="407"><figcaption></figcaption></figure>
-5.  `filenameCOMS`: Gives a list of all Lisp objects in the file specified. \
+5.  `filenameCOMS`: Gives a list of all Lisp objects in the filename specified. \
 
 
     <figure><img src=".gitbook/assets/FILENAMECOMS ADDER FUNCTION.png" alt="" width="407"><figcaption></figcaption></figure>
