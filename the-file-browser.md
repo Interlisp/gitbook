@@ -1,6 +1,6 @@
 # The File Browser
 
-The file browser is a dedicated tool inside Medley that acts as a file directory editor. From the background menu, select File Browser. Hold down the left mouse button and drag to create the following window:
+The file browser is a dedicated tool inside Medley that acts as a file manager. From the background menu, select File Browser. Hold down the left mouse button and drag to create the following window:
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
