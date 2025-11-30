@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Disclaimer](README.md)
+* [Before You Begin](README.md)
 * [Introduction](<README (1).md>)
 * [Medley Online and Medley Local](medley-online-and-medley-local.md)
 * [Understanding and Navigating the Interface](understanding-and-navigating-the-interface.md)
