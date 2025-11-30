@@ -16,8 +16,7 @@ and then:
 
 <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Your cursor will now display the outline of the window you created. Your Prompt Window displays: _Indicate the position for the Bitmap Edit Window_. Left-click on an empty space in your workspace to place your bitmap editor.\
-
+Your cursor will now display the outline of the window you created. Your Prompt Window displays: _Indicate the position for the Bitmap Edit Window_. Left-click on an empty space in your workspace to place your bitmap editor.<br>
 
 <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

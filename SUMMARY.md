@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Disclaimer](README.md)
+* [Introduction](<README (1).md>)
 * [Medley Online and Medley Local](medley-online-and-medley-local.md)
 * [Understanding and Navigating the Interface](understanding-and-navigating-the-interface.md)
 * [Understanding Lisp Syntax](understanding-lisp-syntax.md)
