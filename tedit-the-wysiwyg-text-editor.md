@@ -10,7 +10,7 @@ Click, drag, and let go to create your editor window.  You can start writing:
 
 <figure><img src=".gitbook/assets/TEDIT blank.png" alt=""><figcaption></figcaption></figure>
 
-To change the cursor's position, left-click at the new position or drag while holding down the left mouse button near existing text. Use the middle mouse button instead if you want to select a word. To highlight and select larger segments of the text, hold down the right mouse button and drag over the intended section. To deselect, left-click on an empty space inside the editor.
+To change the cursor's position, left-click at the new position or drag while holding down the left mouse button near existing text. Use the middle mouse button instead if you want to select a word. To highlight and select larger segments of the text, hold down the right mouse button and drag over the intended section. The region to the left of the text is special: If you left-click there, you select the line. If you middle-click there, you select the paragraph. To deselect, left-click on an empty space inside the editor.
 
 The white bar at the top is the prompt pane, which will display information about TEdit as we take certain actions.
 
