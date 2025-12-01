@@ -80,40 +80,19 @@ This returns all active and selected menu items to neutral. It's the default sta
 Two-state menu items, like the fonts, cannot be turned off. We simply switch to a different option than the currently active one and apply it.
 {% endhint %}
 
-#### Saving TEdit Files
+#### Reading TEdit Files
 
-We can save our text in either plain text format or as a PDF.&#x20;
+#### Opening an existing TEdit file:
 
-To save a PDF:\
-Hold down the right mouse button on top of the black title bar. Expand the menu item Hardcopy and select File.
+From TEdit's context menu, we click on Get.
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1103.png" alt=""><figcaption></figcaption></figure>
 
-The following window will appear, asking for a file name:
+Then type the file name.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1106.png" alt=""><figcaption></figcaption></figure>
 
-Type your file name and an extension Medley recognizes, which in this case is .pdf.
-
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-To save a text file:
-
-Hold down the middle mouse button on top of the black title bar. Expand the menu option Put and select Plain-Text.
-
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
-You'll see a prompt appear above the title bar, asking for the path to save the file.&#x20;
-
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-We can get away with writing just our file name and extension. Medley will assume a default file path.
-
-<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Importing a file into TEdit:
+#### Opening a plain text file in TEdit:
 
 From TEdit's context menu, we can expand Get and select Unformatted Get.
 
@@ -127,6 +106,36 @@ The file we saved earlier, plain-text.txt, has now been imported to TEdit for us
 
 <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-We can only import text files into TEdit. PDF imports won't be displayed as intended.
-{% endhint %}
+#### Saving TEdit Files
+
+We can save ("put") our text as formatted text, plain text, or render ("hardcopy") it to a PDF file.&#x20;
+
+To create a PDF:\
+Hold down the right mouse button on top of the black title bar. Expand the menu item Hardcopy and select File.
+
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+The following window will appear, asking for a file name:
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Type your file name, making sure it ends with .pdf.
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+To save a plain text file:
+
+Hold down the middle mouse button on top of the black title bar. Expand the menu option Put and select Plain-Text.
+
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+You'll see a prompt appear above the title bar, asking for the path to save the file.&#x20;
+
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+We can get away with writing just our file name and extension. Medley will store it in the connected directory.
+
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+
