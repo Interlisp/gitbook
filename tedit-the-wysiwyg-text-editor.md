@@ -18,7 +18,7 @@ Press and hold the middle mouse button on top of the black title bar of the TEdi
 
 <figure><img src=".gitbook/assets/{1DC885B6-43C6-4C56-BD92-EDF10BD422B7}.png" alt=""><figcaption></figcaption></figure>
 
-You can change the appearance of your text just like modern text editors. There are a couple of ways to do that, but the easiest is to pull up the TEdit Buttons menu. From the menu shown above, select Buttons. You should see the following menu appear at the bottom of your screen:
+You can change the appearance of selected text just like modern text editors. There are a couple of ways to do that, but the easiest is to pull up the TEdit Buttons menu. From the menu shown above, select Buttons. You should see the following menu appear at the bottom of your screen:
 
 <figure><img src=".gitbook/assets/tedit buttons.png" alt=""><figcaption></figcaption></figure>
 
