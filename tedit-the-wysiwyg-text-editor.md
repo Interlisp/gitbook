@@ -26,7 +26,7 @@ Try giving your text a different format. When you left-click on any one of these
 
 <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-To remove all formatting, use the Defaults button.
+To set the format to the document's default, click the Defaults button.
 
 <figure><img src=".gitbook/assets/screenshot_1102.png" alt=""><figcaption></figcaption></figure>
 
