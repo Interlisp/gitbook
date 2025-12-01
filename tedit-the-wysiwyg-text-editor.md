@@ -1,4 +1,4 @@
-# TEdit, The Text Editor
+# TEdit, The WYSIWYG Text Editor
 
 TEdit is Medley's native text editor. You can use it to create and edit text files. Several formatting options to change the appearance of the text and the page, including features like inserting images, are available.
 
@@ -28,7 +28,7 @@ Try giving your text a different format. When you left-click on any one of these
 
 To remove all formatting, use the Defaults button.
 
-<figure><img src=".gitbook/assets/tedit font changes.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1102.png" alt=""><figcaption></figcaption></figure>
 
 #### Persistent Menus: Apply, Show, and Neutral
 
