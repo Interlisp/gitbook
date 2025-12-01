@@ -13,7 +13,7 @@
 * [Editing functions with SEdit](sedit.md)
 * [The File Browser](the-file-browser.md)
 * [Debugging](debugging.md)
-* [TEdit, The WYSIWYG Text Editor](tedit-the-wysiwyg-text-editor.md)
+* [TEdit, the WYSIWYG Text Editor](tedit-the-wysiwyg-text-editor.md)
 * [Drawing and Displaystreams](drawing-and-displaystreams.md)
 * [Making a Graph with Grapher](making-a-graph-with-grapher.md)
 * [Additional Resources](additional-resources.md)
