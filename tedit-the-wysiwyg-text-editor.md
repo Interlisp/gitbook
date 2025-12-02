@@ -1,6 +1,6 @@
-# TEdit, The WYSIWYG Text Editor
+# TEdit, the WYSIWYG Text Editor
 
-TEdit is Medley's native text editor. You can use it to create and edit text files. Several formatting options to change the appearance of the text and the page, including features like inserting images, are available.
+TEdit is Medley's native text editor. You can use it to create and edit formatted or plain text files. Several formatting options to change the appearance of the text and the page, including features like inserting images, are available.
 
 To open TEdit, hold down the right mouse button in an empty area on the screen and select TEdit from the menu that appears.
 
@@ -32,7 +32,7 @@ To set the format to the document's default, click the Defaults button.
 
 #### Persistent Menus: Apply, Show, and Neutral
 
-We can access more functions through the Expanded Menu. These menus are persistent: they will stay at the position they appear till we close them. Select the Expanded Menu by hovering over it in the menu and letting go of the mouse button. A new panel titled TEdit Menu should appear above your TEdit window.
+We can access more functions through the Expanded Menu. These menus are persistent: they will stay at the position in which they appear until we close them. Select the Expanded Menu by hovering over it in the menu and letting go of the mouse button. A new panel entitled TEdit Menu should appear above your TEdit window.
 
 <figure><img src=".gitbook/assets/tedit ex menu.png" alt=""><figcaption></figcaption></figure>
 
