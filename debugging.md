@@ -103,11 +103,11 @@ To stop tracing a function use `UNTRACE`:
 As our programs grow more complex, we might not want to change the original code when we need to make a small, temporary change. `ADVISE` is a Medley feature to modify the behavior of a function by wrapping code "around" that function without having to edit it. It's also useful when you're working with someone else's code and want to preserve the integrity of their code.
 
 The `ADVISE` function takes four arguments:\
-`(ADVISE 'function-name 'WHEN 'WHERE 'WHAT)`
+`(ADVISE function-name WHEN WHERE WHAT)`
 
 `WHEN` specifies when in the function call should the advised code be executed. Before the function, after the function, or should it replace the function's body entirely by executing around it? `WHEN` has three valid parameters: `BEFORE`, `AFTER`, `AROUND`
 
-`WHERE` specifies where in a list of advises the current advise should be inserted. `WHERE` has two valid parameters: `FIRST` or `TOP` and `LAST` or `BOTTOM` or `END`. We can use `NIL` for `WHERE` unless we have multiple advises. If `WHEN` is `AROUND`, `WHERE` is considered NIL.
+`WHERE` specifies where in a list of advice the current advise should be inserted. `WHERE` has two valid parameters: `FIRST` or `TOP` and `LAST` or `BOTTOM` or `END`. We can use `NIL` for `WHERE` unless we have multiple advises. If `WHEN` is `AROUND`, `WHERE` is considered NIL.
 
 `WHAT` is the advised code to run.
 
@@ -119,11 +119,11 @@ Now, when we execute `factorial`, we see:
 
 <figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-We can remove advises from a function using `UNADVISE`:
+We can remove advice from a function using `UNADVISE`:
 
 <figure><img src=".gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Try adding two advises to a new function. One should appear before and one after the function is executed.
+Try adding two ADVISEs to a new function. One should appear before and one after the function is executed.
 
 <figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
