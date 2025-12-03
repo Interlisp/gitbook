@@ -30,7 +30,7 @@ Try both DF and ED to edit a function. Does one of them let you switch to the Ex
 
 #### **INSPECT**
 
-At times, you will define variables that are larger, more complex than an atom. As our programs grow larger, we might want to take a quick look at the contents of these variables in an organized, tabular format without opening an editor like SEdit:
+At times, you will define variables containing values larger or more complex than an atom. As our programs grow larger, we might want to take a quick look at the contents of these variables in an organized, tabular format without opening an editor like SEdit:
 
 <figure><img src=".gitbook/assets/ed sedit.png" alt=""><figcaption></figcaption></figure>
 
