@@ -4,7 +4,7 @@
 
 You can run Medley either online (through a web browser) or locally. Both are fully capable environments, so rest assured, you don't have to compromise on the features available to you. Choose the online version if you want quick and easy access to Medley. You can log in as a guest and start poking around right away. When you're ready to dive deeper and want to keep track of files and retain the state of your environment across sessions, you can create a free account. Use that to log in for your next sessions. Check out [Access Medley Online](https://interlisp.org/software/access-online/) if you have more questions.
 
-If you prefer a more hands-on, web-independent approach, you can build Medley on your computer. Refer to the documentation here: [Install and Run](https://interlisp.org/software/install-and-run/), to learn more about how to get Medley installed on your specific operating system.&#x20;
+If you prefer a more hands-on, web-independent approach, you can run Medley on your computer. Refer to the documentation here: [Install and Run](https://interlisp.org/software/install-and-run/), to learn more about how to get Medley installed on your specific operating system.&#x20;
 
 Both the online and local versions of Medley let you create, save, and edit files and save the current state of your Medley environment. But the process of doing so differs slightly. Medley's `SYSOUT`\
 function saves the current state of Medley's virtual memory in a "sysout file". The section titled _Saving Virtual Memory State_ in the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) can tell you more about SYSOUT's possibilities.
