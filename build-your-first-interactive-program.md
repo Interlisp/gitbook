@@ -26,7 +26,7 @@ Predefined regions are useful when we want to create multiple windows of the sam
 
 Do you see your window? Play around with the values to get a feel of the pixel density!&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Try to create a window with no title and border. Can you make one that looks like a button?
 
@@ -93,7 +93,7 @@ This creates a menu called `button-menu` with no title and one item only.
    You should see a button-like window appear on the left edge of the window `display-window`with the text "NAVIGATION SYSTEM FAILED".
 3. Right now, the button doesn't do anything. Next, we'll connect a function to the button which can print text to `display-window` .
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 We can detach and remove this menu with  `(DELETEMENU button-menu display-window)` . This does not delete the menu from memory. You can always repeat Step 2 to reattach the menu.
@@ -121,9 +121,9 @@ Now, that we have a list named `distress-calls` , we can set up a function calle
 
 We can define a new function with `DEFINEQ` . In your Exec, type:
 
-<pre class="language-lisp" data-overflow="wrap" data-line-numbers><code class="lang-lisp"><strong>(DEFINEQ (nav-sys (LAMBDA (X) 
-</strong>(PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
-display-window))))
+<pre class="language-lisp" data-overflow="wrap" data-line-numbers><code class="lang-lisp"><strong>(DEFINEQ (nav-sys () 
+</strong>    (PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
+    display-window)))
 </code></pre>
 
 Let's break down our function:
@@ -131,7 +131,7 @@ Let's break down our function:
 1. `nav-sys`: Name of function
 2. `PRIN1`: for printing to a specific window
 3. `CAR`: returns the first element of a list
-4. `(NTH list number)`: returns the tail of the specified `list`starting from the specified `number`. So, if we have a list `(A B C D)` and we use `(NTH (ABCD) 2)`, we'll get `(B C D)` as the output.
+4. `(NTH list number)`: returns the tail of the specified `list` starting from the specified `number`. So, if we have a list `(A B C D)` and we use `(NTH (ABCD) 2)`, we'll get `(B C D)` as the output.
 5. `(RAND value1 value2)`: returns a random value in a range from `value1` from `value2`.
 6. `(LENGTH list)`: returns the length of the list.
 7. `(CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls))))` :&#x20;
@@ -139,7 +139,7 @@ Let's break down our function:
    2. `(NTH distress-calls` returns the tail of the list starting from the element at that random number.
    3. `(CAR` returns the first element of that tail.
    4. `(PRIN1 ... display-window)` prints that element to `display-window` .
-   5. And of course, `(DEFINEQ (nav-sys (LAMBDA (X)` gives the name `nav-sys` to our function. For our current function, we have no use for any parameters, so X is declared following conventions but unused.
+   5. And of course, `(DEFINEQ (nav-sys ()` gives the name `nav-sys` to our function. For our current function, we have no use for any parameters, so we use an empty parameter list, `()`.
 
 ***
 
@@ -173,11 +173,11 @@ Let's add our button to our new window next. Type:
 
 `(ATTACHMENU nav-button nav-display 'BOTTOM 'CENTER)`
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and interact with your button!
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 Is your distress call module working?&#x20;
 
