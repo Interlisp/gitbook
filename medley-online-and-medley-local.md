@@ -7,7 +7,7 @@ You can run Medley either online (through a web browser) or locally. Both are fu
 If you prefer a more hands-on, web-independent approach, you can run Medley on your computer. Refer to the documentation here: [Install and Run](https://interlisp.org/software/install-and-run/), to learn more about how to get Medley installed on your specific operating system.&#x20;
 
 Both the online and local versions of Medley let you create, save, and edit files and save the current state of your Medley environment. But the process of doing so differs slightly. Medley's `SYSOUT`\
-function saves the current state of Medley's virtual memory in a "sysout file". The section titled _Saving Virtual Memory State_ in the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) can tell you more about SYSOUT's possibilities.
+function saves the current state of Medley's virtual memory in a "sysout file." The section titled _Saving Virtual Memory State_ in the [Interlisp Reference Manual](https://interlisp.org/documentation/IRM.pdf) can tell you more about SYSOUT's possibilities.
 
 **Accessing Files**
 
@@ -19,11 +19,11 @@ We'll talk about the other options this sidebar provides. For now, let's focus o
 
 <figure><img src=".gitbook/assets/filemanagerscreen.png" alt=""><figcaption></figcaption></figure>
 
-Right above, the text "Name", you'll notice that all our important files are stored inside a folder titled "il".&#x20;
+Right above the text "Name", you'll notice that all our important files are stored inside a folder titled "il".&#x20;
 
 If you're running Medley locally, your system files are also inside a folder titled "il" but your saved files will be in a nested subfolder titled "home". So, when you save files in Medley Online, it's saved to the path `il/`
 
-When you save files in Medley Local, your files are saved to the path: `il/home/username/il/`
+When you save files in Medley running on your computer, your files are saved to the path: `il/home/username/il/`
 
 {% hint style="info" %}
 The first "il" is the default name of the folder where Medley is installed, inside the drive you chose during the installation process.
@@ -31,12 +31,12 @@ The first "il" is the default name of the folder where Medley is installed, insi
 "username" will, of course, be replaced by your username.
 {% endhint %}
 
-For example, I saved a PDF from TEdit by typing out the file name and not the full path. Medley let me know that it has been saved to:
+For example, I created a PDF in TEdit by typing out the file name and not the full path. Medley let me know that it has been saved to:
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Here, {DSK} refers to the folder titled "il" containing your Medley installation.
+Here, {DSK} refers to the disk containing your Medley installation.
 {% endhint %}
 
 I installed Medley on the R drive, in the Installations/Programs folder. So, I can find the file I just saved at:
