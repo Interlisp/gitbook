@@ -138,7 +138,7 @@ Let's break down our function:
    1. `(RAND 1 (LENGTH distress-calls))` returns a random number between 1 and the total length of the list `distress-calls`.
    2. `(NTH distress-calls` returns the tail of the list starting from the element at that random number.
    3. `(CAR` returns the first element of that tail.
-   4. `(PRIN1 ... display-window)` prints that element to `display-window` .
+   4. `(PRIN1 ... nav-display)` prints that element to the `nav-display` window, which we will create below.
    5. And of course, `(DEFINEQ (nav-sys ()` gives the name `nav-sys` to our function. For our current function, we have no use for any parameters, so we use an empty parameter list, `()`.
 
 ***
@@ -163,7 +163,7 @@ Our new button has only a minor addition (and a different name).&#x20;
 
 `WHENSELECTEDFN ← (FUNCTION nav-sys)` executes the function `nav-sys` when menu-item (our button `nav-button` ) is selected.
 
-We'll create a new window called NAV SYSTEM DISPLAY:
+We'll create a new window called `nav-display`:
 
 ```lisp
 (SETQ nav-display (CREATEW (CREATEREGION 500 500 300 200) "NAV SYSTEM DISPLAY" 10))
