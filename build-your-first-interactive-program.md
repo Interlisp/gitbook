@@ -123,7 +123,7 @@ We can define a new function with `DEFINEQ` . In your Exec, type:
 
 <pre class="language-lisp" data-overflow="wrap" data-line-numbers><code class="lang-lisp"><strong>(DEFINEQ (nav-sys () 
 </strong>    (PRIN1 (CAR (NTH distress-calls (RAND 1 (LENGTH distress-calls)))) 
-    display-window)))
+    nav-display)))
 </code></pre>
 
 Let's break down our function:
