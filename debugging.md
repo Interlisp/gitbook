@@ -21,7 +21,7 @@ Back in the SEdit chapter, we learned about editing the definition of a function
 While `DF` is for editing functions only, `ED` is the default editor function we can use to edit any File Manager object, including function definitions, variable values, property lists, or file package commands through SEdit.
 
 {% hint style="info" %}
-The `:DONTWAIT` statement in DF’s mapping to ED lets SEdit return immediately, so the Exec doesn’t stall after starting an edit. This means you can continue working in the Exec while edits are being applied in SEdit and changes take effect as you make them, without waiting for a completion command.&#x20;
+The `:DONTWAIT` statement in DF’s call to ED lets SEdit return immediately, so the Exec doesn’t stall after starting an edit. This means you can continue working in the Exec while making edits in SEdit and changes take effect as you make them, without waiting for a completion command.&#x20;
 
 Try both DF and ED to edit a function. Does one of them let you switch to the Exec freely? Which one restricts you to SEdit?
 {% endhint %}
@@ -30,7 +30,7 @@ Try both DF and ED to edit a function. Does one of them let you switch to the Ex
 
 #### **INSPECT**
 
-At times, you will define variables containing values larger or more complex than an atom. As our programs grow larger, we might want to take a quick look at the contents of these variables in an organized, tabular format without opening an editor like SEdit:
+At times, you will define variables containing values more complex than an atom. As our programs grow larger, we might want to take a quick look at the contents of these variables in an organized, tabular format without opening an editor like SEdit:
 
 <figure><img src=".gitbook/assets/ed sedit.png" alt=""><figcaption></figcaption></figure>
 
