@@ -66,17 +66,17 @@ Let's define a function that prints out the factorial of any given number.
 
 Factorials can be quite large. Suppose we want to limit the program so that only factorials of numbers no greater than 10 are printed. Pull up SEdit to edit the function `factorial`. Add another condition to the COND block:&#x20;
 
-`((GREATERP X 10)(CL:BREAK "This number is too large. X should be smaller than 10"))`
+`((GREATERP X 10) (ERROR "This number is too large. X should be less than 11."))`
 
 This tells Medley to break the function if X is greater than 10.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1119 (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the new function is compiled, try a few different values to test if it's working as intended.&#x20;
 
 For `(factorial 11)`, or any number larger than 10, you should see the break window appear with your message:
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1120.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
