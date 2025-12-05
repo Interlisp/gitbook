@@ -58,7 +58,7 @@ But when it comes to Inspect, we do want the system to understand the contents o
 If you're stuck in an infinite loop or just want to break out of the current running function, use **Ctrl + B.**
 {% endhint %}
 
-In a COND, use `(CL:BREAK "Something meaningful to print about the break")` to trigger a break at a particular point.
+In a COND, use `(ERROR "Something meaningful to print about the break")` to trigger a break at a when you detect an error condition.
 
 Let's define a function that prints out the factorial of any given number.
 
