@@ -18,7 +18,7 @@ There are several functions that can be used to call/launch SEdit. Refer to Chap
 In the Exec, type:\
 `(DF new-fn)`
 
-You will see a new window appear on your screen with the title: SEdit new-fn Package: INTERLISP
+You will see a new window appear on your screen with the title: `SEdit new-fn Package: INTERLISP`
 
 <figure><img src=".gitbook/assets/SEDIT unedited1.png" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@ Now, click the middle-mouse button on the black title bar to see a new menu appe
 
 Select the option Done, Compile, and Close to update our function. We are going to test our new function soon. But first, let's update the name to match what it does.&#x20;
 
-We can use the `RENAME` function to change the name of a symbol- for example, the name of a function. The general form is: `(RENAME 'old-function-name 'new-function-name)` .&#x20;
+We can use the `RENAME` function to change the name of a symbol - for example, the name of a function. The general form is: `(RENAME old-function-name new-function-name)` .&#x20;
 
 In the Exec, type:
 
