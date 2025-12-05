@@ -15,7 +15,7 @@ Medley's File Manager subsystem is content-aware. It can do more than just save 
 3.  `(LOAD 'filename)`: Loads the file and all its objects. Use this when you start a new Medley session.<br>
 
     <figure><img src=".gitbook/assets/LOAD ADDER FUNCTION.png" alt="" width="406"><figcaption></figcaption></figure>
-4.  `FILELIST` : Gives a list of all files currently loaded in the environment.<br>
+4.  `FILELST` : Gives a list of all files currently loaded in the environment.<br>
 
     <figure><img src=".gitbook/assets/FILELIST ADDER FUNCTION.png" alt="" width="407"><figcaption></figcaption></figure>
 5.  `filenameCOMS`: Gives a list of all Lisp objects in the filename specified. <br>
