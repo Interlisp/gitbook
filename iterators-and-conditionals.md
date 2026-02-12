@@ -50,7 +50,7 @@ Your function should look similar to this:
 
 Similar to other languages, you can use operators like FOR and WHILE to set up loops.
 
-`(for X from 1 to 5 do (PRINT X)`
+`(for X from 1 to 5 do (PRINT X))`
 
 Medley has a large collection of iterative statement operators. Check out the IRM's _Conditionals and Iterative Statements_ chapter for a full list. Here's a small collection:
 
