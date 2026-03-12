@@ -4,8 +4,6 @@ _**Medley Interlisp for the Newcomer**_**&#x20;is currently in beta.** Your expe
 
 If you spot anything that could be improved- suggestions, errors, inconsistencies, missing clarifications- the best place to let us know is through GitHub Issues.&#x20;
 
-We've set up a dedicated issue template for this primer to make the process easier:
-
-{% embed url="https://github.com/Interlisp/medley/issues/new?template=primer.yml" fullWidth="false" %}
+We've set up [a dedicated issue template for this primer](https://github.com/Interlisp/medley/issues/new?template=primer.yml) to make the process easier.
 
 We look forward to your feedback!
