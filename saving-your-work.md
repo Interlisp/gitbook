@@ -1,6 +1,6 @@
 # Saving Your Work
 
-Medley's File Manager subsystem manages your code in memory and on disk. As we define and change functions, variables, and data structures, the File Manager keeps track of what we have stored in memory and what has been written to external storage. When we load a file in Medley, it parses all the text in the file as Lisp objects and data structures that are ready in memory for the system to use.  As you change your code and data, you can ask the File Manager to show your changes and store them on disk.
+Medley's File Manager subsystem (also known as the File Package) manages your code in memory and on disk. As we define and change functions, variables, and data structures, the File Manager keeps track of what we have stored in memory and what has been written to external storage. When we load a file in Medley, it parses all the text in the file as Lisp objects and data structures that are ready in memory for the system to use.  As you change your code and data, you can ask the File Manager to show your changes and store them on disk.
 
 #### For saving and loading our work, essential functions and commands (to be typed in the Exec) are:&#x20;
 
