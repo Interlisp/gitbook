@@ -1,24 +1,24 @@
 # Saving Your Work
 
-Medley's File Manager subsystem is content-aware. It can do more than just save files. As we define and change functions, variables, and data structures, the File Manager keeps track of what we have stored in temporary session memory and what has already been written and not written to a file in permanent, external storage. Modern file managers use separate, dedicated programs to process the content of a file. In contrast, when we load a file in Medley, it parses all the text in the file as Lisp objects and data structures that are ready in memory for the system to use. Consider Medley's File Manager a smart, live memory monitor of sorts.
+Medley's File Manager subsystem manages your code in memory and on disk. As we define and change functions, variables, and data structures, the File Manager keeps track of what we have stored in memory and what has been written to external storage. When we load a file in Medley, it parses all the text in the file as Lisp objects and data structures that are ready in memory for the system to use.  As you change your code and data, you can ask the File Manager to show your changes and store them on disk.
 
 #### For saving and loading our work, essential functions and commands (to be typed in the Exec) are:&#x20;
 
-1.  `(FILES?)`: Gives a list of objects we created and changed that can be "dumped"/written to a file, and asks for directions. This does not update the actual file in storage- it logs what needs to be saved eventually. <br>
+1.  `(FILES?)`: Displays the functions, variables, and so on we created or changed and asks for directions for each one: add it to an existing file, add it to a new file, or ignore it.  `(FILES?)` does not update the file on disk, but simply logs what should be saved. <br>
 
     <figure><img src=".gitbook/assets/SAVE ADDER FILE.png" alt="" width="425"><figcaption></figcaption></figure>
-2.  `(MAKEFILE 'filename)`: Writes and saves the changes made to a file in storage. You can now find the file in your storage path.<br>
+2.  `(MAKEFILE 'filename)`: Saves the changes made to a file by writing it to disk. You can now find the file in your current directory.<br>
 
     <figure><img src=".gitbook/assets/MAKEFILE ADDER FUNCTION.png" alt="" width="433"><figcaption></figcaption></figure>
 
-    We can also use MAKEFILES to iterate the MAKEFILE operation over a list of files. MAKEFILES takes a list of files.
-3.  `(LOAD 'filename)`: Loads the file and all its objects. Use this when you start a new Medley session.<br>
+    We can also call `MAKEFILES` to iterate the `MAKEFILE` operation over a list of files. `MAKEFILES` takes an optional list of files as arguments.  Calling it without arguments - `(MAKEFILES) -`  writes all changes to disk.
+3.  `(LOAD 'filename)`: Loads the file `filename` and its definitions.<br>
 
     <figure><img src=".gitbook/assets/LOAD ADDER FUNCTION.png" alt="" width="406"><figcaption></figcaption></figure>
-4.  `FILELST` : Gives a list of all files currently loaded in the environment.<br>
+4.  `FILELST` : A variable that contains all files currently loaded in the environment.<br>
 
     <figure><img src=".gitbook/assets/FILELIST ADDER FUNCTION.png" alt="" width="407"><figcaption></figcaption></figure>
-5.  `filenameCOMS`: Gives a list of all Lisp objects in the filename specified. <br>
+5.  `filenameCOMS`: Gives a list of all definitions contained in the named file.  For instance, you can see all definitions associated with the file `ADDER-FUNCTION` on the variable `ADDER-FUNCTIONCOMS`.<br>
 
     <figure><img src=".gitbook/assets/FILENAMECOMS ADDER FUNCTION.png" alt="" width="407"><figcaption></figcaption></figure>
 
