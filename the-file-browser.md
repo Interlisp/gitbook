@@ -1,6 +1,8 @@
 # The File Browser
 
-The File Browser is a Medley tool that makes it easy to manipulate files on your disk. From the background menu, select File Browser. Hold down the left mouse button and drag to create the following window:
+The File Browser is a Medley tool that makes it easy to manipulate files on your disk. It is distinct from the File Manager ("File Package"), which coordinates Lisp definitions in memory and their representation on disk.  The File Browser is like the macOS Finder, Windows Explorer, or Gnome's Nautilus.
+
+To run it, select File Browser from the background menu. Hold down the left mouse button and drag to shape the window:
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
